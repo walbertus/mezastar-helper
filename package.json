@@ -1,0 +1,44 @@
+{
+  "name": "mezastar-helper",
+  "version": "1.0.0",
+  "description": "Pokemon battle recommendation service for Mezastar",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src tests --ext .ts",
+    "format": "prettier --write src tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walbertus/mezastar-helper.git"
+  },
+  "keywords": [
+    "pokemon",
+    "mezastar",
+    "recommendation"
+  ],
+  "author": "walbertus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walbertus/mezastar-helper/issues"
+  },
+  "homepage": "https://github.com/walbertus/mezastar-helper#readme",
+  "devDependencies": {
+    "@material/web": "^2.4.1",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^25.3.5",
+    "@vitest/coverage-v8": "^4.0.18",
+    "@vitest/ui": "^4.0.18",
+    "eslint": "^10.0.2",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18",
+    "vitest-dom": "^0.1.1"
+  }
+}
