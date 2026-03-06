@@ -1,0 +1,110 @@
+{
+  "Normal": {
+    "superEffectiveAgainst": [],
+    "weakTo": ["Fighting"],
+    "resistsAgainst": [],
+    "superEffectiveFrom": ["Fighting"]
+  },
+  "Fire": {
+    "superEffectiveAgainst": ["Grass", "Ice", "Bug", "Steel"],
+    "weakTo": ["Water", "Ground", "Rock"],
+    "resistsAgainst": ["Grass", "Ice", "Bug", "Steel", "Fairy"],
+    "superEffectiveFrom": ["Water", "Ground", "Rock"]
+  },
+  "Water": {
+    "superEffectiveAgainst": ["Fire", "Ground", "Rock"],
+    "weakTo": ["Grass", "Electric"],
+    "resistsAgainst": ["Steel", "Fire", "Water"],
+    "superEffectiveFrom": ["Grass", "Electric"]
+  },
+  "Electric": {
+    "superEffectiveAgainst": ["Water", "Flying"],
+    "weakTo": ["Ground"],
+    "resistsAgainst": ["Flying", "Steel", "Electric"],
+    "superEffectiveFrom": ["Ground"]
+  },
+  "Grass": {
+    "superEffectiveAgainst": ["Water", "Ground", "Rock"],
+    "weakTo": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+    "resistsAgainst": ["Ground", "Water", "Grass", "Electric"],
+    "superEffectiveFrom": ["Fire", "Ice", "Poison", "Flying", "Bug"]
+  },
+  "Ice": {
+    "superEffectiveAgainst": ["Flying", "Ground", "Grass", "Dragon"],
+    "weakTo": ["Fire", "Fighting", "Rock", "Steel"],
+    "resistsAgainst": ["Ice"],
+    "superEffectiveFrom": ["Fire", "Fighting", "Rock", "Steel"]
+  },
+  "Fighting": {
+    "superEffectiveAgainst": ["Normal", "Ice", "Rock", "Dark", "Steel"],
+    "weakTo": ["Flying", "Psychic", "Fairy"],
+    "resistsAgainst": ["Rock", "Bug", "Dark"],
+    "superEffectiveFrom": ["Flying", "Psychic", "Fairy"]
+  },
+  "Poison": {
+    "superEffectiveAgainst": ["Grass", "Fairy"],
+    "weakTo": ["Ground", "Psychic"],
+    "resistsAgainst": ["Fighting", "Poison", "Bug", "Grass", "Fairy"],
+    "superEffectiveFrom": ["Ground", "Psychic"]
+  },
+  "Ground": {
+    "superEffectiveAgainst": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+    "weakTo": ["Water", "Grass", "Ice"],
+    "resistsAgainst": ["Poison", "Rock"],
+    "superEffectiveFrom": ["Water", "Grass", "Ice"]
+  },
+  "Flying": {
+    "superEffectiveAgainst": ["Fighting", "Bug", "Grass"],
+    "weakTo": ["Electric", "Ice", "Rock"],
+    "resistsAgainst": ["Fighting", "Bug", "Grass"],
+    "superEffectiveFrom": ["Electric", "Ice", "Rock"]
+  },
+  "Psychic": {
+    "superEffectiveAgainst": ["Fighting", "Poison"],
+    "weakTo": ["Bug", "Ghost", "Dark"],
+    "resistsAgainst": ["Fighting", "Psychic"],
+    "superEffectiveFrom": ["Bug", "Ghost", "Dark"]
+  },
+  "Bug": {
+    "superEffectiveAgainst": ["Grass", "Psychic", "Dark"],
+    "weakTo": ["Fire", "Flying", "Rock"],
+    "resistsAgainst": ["Grass", "Fighting", "Ground"],
+    "superEffectiveFrom": ["Fire", "Flying", "Rock"]
+  },
+  "Rock": {
+    "superEffectiveAgainst": ["Flying", "Bug", "Fire", "Ice"],
+    "weakTo": ["Water", "Grass", "Fighting", "Ground", "Steel"],
+    "resistsAgainst": ["Normal", "Flying", "Poison", "Fire"],
+    "superEffectiveFrom": ["Water", "Grass", "Fighting", "Ground", "Steel"]
+  },
+  "Ghost": {
+    "superEffectiveAgainst": ["Ghost", "Psychic"],
+    "weakTo": ["Ghost", "Dark"],
+    "resistsAgainst": ["Poison", "Bug"],
+    "superEffectiveFrom": ["Ghost", "Dark"]
+  },
+  "Dragon": {
+    "superEffectiveAgainst": ["Dragon"],
+    "weakTo": ["Ice", "Dragon", "Fairy"],
+    "resistsAgainst": ["Fire", "Water", "Grass", "Electric"],
+    "superEffectiveFrom": ["Ice", "Dragon", "Fairy"]
+  },
+  "Dark": {
+    "superEffectiveAgainst": ["Ghost", "Psychic"],
+    "weakTo": ["Fighting", "Bug", "Fairy"],
+    "resistsAgainst": ["Ghost", "Dark"],
+    "superEffectiveFrom": ["Fighting", "Bug", "Fairy"]
+  },
+  "Steel": {
+    "superEffectiveAgainst": ["Ice", "Rock", "Fairy"],
+    "weakTo": ["Fire", "Water", "Ground"],
+    "resistsAgainst": ["Normal", "Flying", "Rock", "Bug", "Steel", "Grass", "Psychic", "Ice", "Dragon", "Fairy"],
+    "superEffectiveFrom": ["Fire", "Water", "Ground"]
+  },
+  "Fairy": {
+    "superEffectiveAgainst": ["Fighting", "Dragon", "Dark"],
+    "weakTo": ["Poison", "Steel"],
+    "resistsAgainst": ["Fighting", "Bug", "Dark"],
+    "superEffectiveFrom": ["Poison", "Steel"]
+  }
+}

@@ -37,7 +37,7 @@ export class App {
 
   private async loadMezatags(): Promise<void> {
     try {
-      const response = await fetch('/mezastar-helper/data/mezatags.json');
+      const response = await fetch('data/mezatags.json');
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`);
       }
