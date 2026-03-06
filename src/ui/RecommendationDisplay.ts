@@ -190,7 +190,7 @@ export class RecommendationDisplay {
 
     // Image
     const img = document.createElement('img');
-    img.src = scored.mezatag.imageUrl || '/placeholder.png';
+    img.src = scored.mezatag.imageUrl || 'placeholder.svg';
     img.alt = scored.mezatag.name;
     img.style.cssText = `
       width: 48px;
@@ -201,7 +201,7 @@ export class RecommendationDisplay {
     `;
 
     img.addEventListener('error', () => {
-      img.src = '/placeholder.png';
+      img.src = 'placeholder.svg';
     });
 
     // Info
