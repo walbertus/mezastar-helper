@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Pikachu",
+    "types": ["Electric"],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "spAtk": 50,
+      "spDef": 50,
+      "speed": 90
+    },
+    "move": {
+      "name": "Thunderbolt",
+      "type": "Electric"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/25.png"
+  },
+  {
+    "name": "Charizard",
+    "types": ["Fire", "Flying"],
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "spAtk": 109,
+      "spDef": 85,
+      "speed": 100
+    },
+    "move": {
+      "name": "Flamethrower",
+      "type": "Fire"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/6.png"
+  },
+  {
+    "name": "Blastoise",
+    "types": ["Water"],
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "spAtk": 83,
+      "spDef": 83,
+      "speed": 78
+    },
+    "move": {
+      "name": "Hydro Cannon",
+      "type": "Water"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/9.png"
+  },
+  {
+    "name": "Venusaur",
+    "types": ["Grass", "Poison"],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "spAtk": 100,
+      "spDef": 100,
+      "speed": 80
+    },
+    "move": {
+      "name": "Solar Beam",
+      "type": "Grass"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/3.png"
+  },
+  {
+    "name": "Dragonite",
+    "types": ["Dragon", "Flying"],
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "spAtk": 100,
+      "spDef": 100,
+      "speed": 80
+    },
+    "move": {
+      "name": "Dragon Dance",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/149.png"
+  },
+  {
+    "name": "Alakazam",
+    "types": ["Psychic"],
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 65,
+      "spAtk": 135,
+      "spDef": 85,
+      "speed": 120
+    },
+    "move": {
+      "name": "Psychic",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/65.png"
+  },
+  {
+    "name": "Machamp",
+    "types": ["Fighting"],
+    "stats": {
+      "hp": 80,
+      "attack": 130,
+      "defense": 80,
+      "spAtk": 65,
+      "spDef": 85,
+      "speed": 55
+    },
+    "move": {
+      "name": "Dynamic Punch",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/68.png"
+  },
+  {
+    "name": "Golem",
+    "types": ["Rock", "Ground"],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "spAtk": 55,
+      "spDef": 65,
+      "speed": 45
+    },
+    "move": {
+      "name": "Stone Edge",
+      "type": "Rock"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/76.png"
+  },
+  {
+    "name": "Arcanine",
+    "types": ["Fire"],
+    "stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "spAtk": 80,
+      "spDef": 90,
+      "speed": 95
+    },
+    "move": {
+      "name": "Flare Blitz",
+      "type": "Fire"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/59.png"
+  },
+  {
+    "name": "Lapras",
+    "types": ["Water", "Ice"],
+    "stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "spAtk": 85,
+      "spDef": 95,
+      "speed": 60
+    },
+    "move": {
+      "name": "Hydro Pump",
+      "type": "Water"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/131.png"
+  },
+  {
+    "name": "Snorlax",
+    "types": ["Normal"],
+    "stats": {
+      "hp": 150,
+      "attack": 80,
+      "defense": 50,
+      "spAtk": 65,
+      "spDef": 110,
+      "speed": 30
+    },
+    "move": {
+      "name": "Body Slam",
+      "type": "Normal"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/143.png"
+  },
+  {
+    "name": "Articuno",
+    "types": ["Ice", "Flying"],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "spAtk": 95,
+      "spDef": 125,
+      "speed": 85
+    },
+    "move": {
+      "name": "Ice Beam",
+      "type": "Ice"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/144.png"
+  },
+  {
+    "name": "Zapdos",
+    "types": ["Electric", "Flying"],
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "spAtk": 125,
+      "spDef": 90,
+      "speed": 100
+    },
+    "move": {
+      "name": "Thunderbolt",
+      "type": "Electric"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/145.png"
+  },
+  {
+    "name": "Moltres",
+    "types": ["Fire", "Flying"],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "spAtk": 125,
+      "spDef": 85,
+      "speed": 90
+    },
+    "move": {
+      "name": "Fire Blast",
+      "type": "Fire"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/146.png"
+  },
+  {
+    "name": "Mewtwo",
+    "types": ["Psychic"],
+    "stats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "spAtk": 154,
+      "spDef": 90,
+      "speed": 130
+    },
+    "move": {
+      "name": "Psystrike",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/150.png"
+  },
+  {
+    "name": "Gyarados",
+    "types": ["Water", "Flying"],
+    "stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "spAtk": 60,
+      "spDef": 100,
+      "speed": 81
+    },
+    "move": {
+      "name": "Waterfall",
+      "type": "Water"
+    },
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/130.png"
+  }
+]

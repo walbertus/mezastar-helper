@@ -10,7 +10,8 @@
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "lint": "eslint src tests --ext .ts",
-    "format": "prettier --write src tests"
+    "format": "prettier --write src tests",
+    "crawl": "node --loader ts-node/esm scripts/crawl-mezatag.ts"
   },
   "repository": {
     "type": "git",
@@ -31,11 +32,16 @@
     "@material/web": "^2.4.1",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/user-event": "^14.6.1",
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^25.3.5",
     "@vitest/coverage-v8": "^4.0.18",
     "@vitest/ui": "^4.0.18",
     "eslint": "^10.0.2",
+    "jsdom": "^24.1.1",
+    "node-fetch": "^3.3.2",
     "prettier": "^3.8.1",
+    "terser": "^5.46.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vitest": "^4.0.18",

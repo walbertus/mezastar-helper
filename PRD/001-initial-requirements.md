@@ -9,6 +9,7 @@ Pokemon with missing data should be removed.
 Mezatag only contain 1 Pokemon with one move type.
 Mezatag move contain Move Name and Type.
 Mezatag Pokemon contain name, image, HP, Attack, Defense, Sp. Attack, Sp. Defense, Speed.
+Pokemon can have multiple Types.
 
 ## User Stories
 
