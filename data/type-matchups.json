@@ -1,110 +1,158 @@
 {
   "Normal": {
-    "superEffectiveAgainst": [],
-    "weakTo": ["Fighting"],
-    "resistsAgainst": [],
-    "superEffectiveFrom": ["Fighting"]
+    "Rock": 0.5,
+    "Ghost": 0.0,
+    "Steel": 0.5
   },
   "Fire": {
-    "superEffectiveAgainst": ["Grass", "Ice", "Bug", "Steel"],
-    "weakTo": ["Water", "Ground", "Rock"],
-    "resistsAgainst": ["Grass", "Ice", "Bug", "Steel", "Fairy"],
-    "superEffectiveFrom": ["Water", "Ground", "Rock"]
+    "Fire": 0.5,
+    "Water": 0.5,
+    "Grass": 2.0,
+    "Ice": 2.0,
+    "Bug": 2.0,
+    "Rock": 0.5,
+    "Dragon": 0.5,
+    "Steel": 2.0
   },
   "Water": {
-    "superEffectiveAgainst": ["Fire", "Ground", "Rock"],
-    "weakTo": ["Grass", "Electric"],
-    "resistsAgainst": ["Steel", "Fire", "Water"],
-    "superEffectiveFrom": ["Grass", "Electric"]
+    "Fire": 2.0,
+    "Water": 0.5,
+    "Grass": 0.5,
+    "Ground": 2.0,
+    "Rock": 2.0,
+    "Dragon": 0.5
   },
   "Electric": {
-    "superEffectiveAgainst": ["Water", "Flying"],
-    "weakTo": ["Ground"],
-    "resistsAgainst": ["Flying", "Steel", "Electric"],
-    "superEffectiveFrom": ["Ground"]
+    "Water": 2.0,
+    "Electric": 0.5,
+    "Grass": 0.5,
+    "Ground": 0.0,
+    "Flying": 2.0,
+    "Dragon": 0.5
   },
   "Grass": {
-    "superEffectiveAgainst": ["Water", "Ground", "Rock"],
-    "weakTo": ["Fire", "Ice", "Poison", "Flying", "Bug"],
-    "resistsAgainst": ["Ground", "Water", "Grass", "Electric"],
-    "superEffectiveFrom": ["Fire", "Ice", "Poison", "Flying", "Bug"]
+    "Fire": 0.5,
+    "Water": 2.0,
+    "Grass": 0.5,
+    "Poison": 0.5,
+    "Ground": 2.0,
+    "Flying": 0.5,
+    "Bug": 0.5,
+    "Rock": 2.0,
+    "Dragon": 0.5,
+    "Steel": 0.5
   },
   "Ice": {
-    "superEffectiveAgainst": ["Flying", "Ground", "Grass", "Dragon"],
-    "weakTo": ["Fire", "Fighting", "Rock", "Steel"],
-    "resistsAgainst": ["Ice"],
-    "superEffectiveFrom": ["Fire", "Fighting", "Rock", "Steel"]
+    "Fire": 0.5,
+    "Water": 0.5,
+    "Grass": 2.0,
+    "Ice": 0.5,
+    "Ground": 2.0,
+    "Flying": 2.0,
+    "Dragon": 2.0,
+    "Steel": 0.5
   },
   "Fighting": {
-    "superEffectiveAgainst": ["Normal", "Ice", "Rock", "Dark", "Steel"],
-    "weakTo": ["Flying", "Psychic", "Fairy"],
-    "resistsAgainst": ["Rock", "Bug", "Dark"],
-    "superEffectiveFrom": ["Flying", "Psychic", "Fairy"]
+    "Normal": 2.0,
+    "Ice": 2.0,
+    "Poison": 0.5,
+    "Flying": 0.5,
+    "Psychic": 0.5,
+    "Bug": 0.5,
+    "Rock": 2.0,
+    "Ghost": 0.0,
+    "Dark": 2.0,
+    "Steel": 2.0,
+    "Fairy": 0.5
   },
   "Poison": {
-    "superEffectiveAgainst": ["Grass", "Fairy"],
-    "weakTo": ["Ground", "Psychic"],
-    "resistsAgainst": ["Fighting", "Poison", "Bug", "Grass", "Fairy"],
-    "superEffectiveFrom": ["Ground", "Psychic"]
+    "Poison": 0.5,
+    "Ground": 0.5,
+    "Rock": 0.5,
+    "Ghost": 0.5,
+    "Grass": 2.0,
+    "Steel": 0.0,
+    "Fairy": 2.0
   },
   "Ground": {
-    "superEffectiveAgainst": ["Fire", "Electric", "Poison", "Rock", "Steel"],
-    "weakTo": ["Water", "Grass", "Ice"],
-    "resistsAgainst": ["Poison", "Rock"],
-    "superEffectiveFrom": ["Water", "Grass", "Ice"]
+    "Fire": 2.0,
+    "Electric": 2.0,
+    "Grass": 0.5,
+    "Poison": 2.0,
+    "Flying": 0.0,
+    "Bug": 0.5,
+    "Rock": 2.0,
+    "Steel": 2.0
   },
   "Flying": {
-    "superEffectiveAgainst": ["Fighting", "Bug", "Grass"],
-    "weakTo": ["Electric", "Ice", "Rock"],
-    "resistsAgainst": ["Fighting", "Bug", "Grass"],
-    "superEffectiveFrom": ["Electric", "Ice", "Rock"]
+    "Electric": 0.5,
+    "Grass": 2.0,
+    "Fighting": 2.0,
+    "Bug": 2.0,
+    "Rock": 0.5,
+    "Steel": 0.5
   },
   "Psychic": {
-    "superEffectiveAgainst": ["Fighting", "Poison"],
-    "weakTo": ["Bug", "Ghost", "Dark"],
-    "resistsAgainst": ["Fighting", "Psychic"],
-    "superEffectiveFrom": ["Bug", "Ghost", "Dark"]
+    "Fighting": 2.0,
+    "Poison": 2.0,
+    "Psychic": 0.5,
+    "Dark": 0.0,
+    "Steel": 0.5
   },
   "Bug": {
-    "superEffectiveAgainst": ["Grass", "Psychic", "Dark"],
-    "weakTo": ["Fire", "Flying", "Rock"],
-    "resistsAgainst": ["Grass", "Fighting", "Ground"],
-    "superEffectiveFrom": ["Fire", "Flying", "Rock"]
+    "Fire": 0.5,
+    "Grass": 2.0,
+    "Fighting": 0.5,
+    "Poison": 0.5,
+    "Flying": 0.5,
+    "Psychic": 2.0,
+    "Ghost": 0.5,
+    "Dark": 2.0,
+    "Steel": 0.5,
+    "Fairy": 0.5
   },
   "Rock": {
-    "superEffectiveAgainst": ["Flying", "Bug", "Fire", "Ice"],
-    "weakTo": ["Water", "Grass", "Fighting", "Ground", "Steel"],
-    "resistsAgainst": ["Normal", "Flying", "Poison", "Fire"],
-    "superEffectiveFrom": ["Water", "Grass", "Fighting", "Ground", "Steel"]
+    "Fire": 2.0,
+    "Ice": 2.0,
+    "Fighting": 0.5,
+    "Ground": 0.5,
+    "Flying": 2.0,
+    "Bug": 2.0,
+    "Steel": 0.5
   },
   "Ghost": {
-    "superEffectiveAgainst": ["Ghost", "Psychic"],
-    "weakTo": ["Ghost", "Dark"],
-    "resistsAgainst": ["Poison", "Bug"],
-    "superEffectiveFrom": ["Ghost", "Dark"]
+    "Normal": 0.0,
+    "Psychic": 2.0,
+    "Ghost": 2.0,
+    "Dark": 0.5
   },
   "Dragon": {
-    "superEffectiveAgainst": ["Dragon"],
-    "weakTo": ["Ice", "Dragon", "Fairy"],
-    "resistsAgainst": ["Fire", "Water", "Grass", "Electric"],
-    "superEffectiveFrom": ["Ice", "Dragon", "Fairy"]
+    "Dragon": 2.0,
+    "Steel": 0.5,
+    "Fairy": 0.0
   },
   "Dark": {
-    "superEffectiveAgainst": ["Ghost", "Psychic"],
-    "weakTo": ["Fighting", "Bug", "Fairy"],
-    "resistsAgainst": ["Ghost", "Dark"],
-    "superEffectiveFrom": ["Fighting", "Bug", "Fairy"]
+    "Fighting": 0.5,
+    "Psychic": 2.0,
+    "Ghost": 2.0,
+    "Dark": 0.5,
+    "Fairy": 0.5
   },
   "Steel": {
-    "superEffectiveAgainst": ["Ice", "Rock", "Fairy"],
-    "weakTo": ["Fire", "Water", "Ground"],
-    "resistsAgainst": ["Normal", "Flying", "Rock", "Bug", "Steel", "Grass", "Psychic", "Ice", "Dragon", "Fairy"],
-    "superEffectiveFrom": ["Fire", "Water", "Ground"]
+    "Fire": 0.5,
+    "Water": 0.5,
+    "Electric": 0.5,
+    "Ice": 2.0,
+    "Rock": 2.0,
+    "Steel": 0.5,
+    "Fairy": 2.0
   },
   "Fairy": {
-    "superEffectiveAgainst": ["Fighting", "Dragon", "Dark"],
-    "weakTo": ["Poison", "Steel"],
-    "resistsAgainst": ["Fighting", "Bug", "Dark"],
-    "superEffectiveFrom": ["Poison", "Steel"]
+    "Fire": 0.5,
+    "Poison": 0.5,
+    "Fighting": 2.0,
+    "Dragon": 2.0,
+    "Dark": 2.0,
+    "Steel": 0.5
   }
 }

@@ -37,6 +37,19 @@ This service will be deployed with Github Pages. This service hold no state of t
 - Use Material design for the UI component. Use color theme that represent "Forest"
 - UI in mobile for multiple long list should use collapsible sections.
 
+Type matchup data structure example
+```json
+{
+  "Bug":{
+    "Normal": 1.0,
+    "Fire": 0.5,
+    "Grass": 2.0
+  }
+}
+
+# This mean Bug attack Normal is normal, Bug attack Fire is not very effective, Bug attack Grass is very effective
+```
+
 ## Future Consideration
 
 - Possibility to store User's Pokemons so the recommendation list can be filtered only to show owned Pokemon.
@@ -45,6 +58,7 @@ This service will be deployed with Github Pages. This service hold no state of t
 ## References
 
 - [Pokemon types and chart](https://pokemondb.net/type)
+- [Pokemon dual types and chart](https://pokemondb.net/type/dual)
 - [Material Design](https://m3.material.io/)
 
 List of Mezatag and moves can be found in these links.
