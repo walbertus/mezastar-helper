@@ -60,6 +60,7 @@ export interface Pokemon {
  * Mezatag - Pokemon tag with a single move
  */
 export interface Mezatag extends Pokemon {
+  energy: number;
   move: Move;
   imageUrl?: string;
 }

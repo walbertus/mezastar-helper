@@ -10,30 +10,35 @@ const mockMezatags: Mezatag[] = [
   {
     name: 'Pikachu',
     types: [PokemonType.Electric],
+    energy: 0,
     stats: { hp: 35, attack: 55, defense: 40, spAtk: 50, spDef: 50, speed: 90 },
     move: { name: 'Thunderbolt', type: PokemonType.Electric },
   },
   {
     name: 'Charizard',
     types: [PokemonType.Fire, PokemonType.Flying],
+    energy: 0,
     stats: { hp: 78, attack: 84, defense: 78, spAtk: 109, spDef: 85, speed: 100 },
     move: { name: 'Flamethrower', type: PokemonType.Fire },
   },
   {
     name: 'Blastoise',
     types: [PokemonType.Water],
+    energy: 0,
     stats: { hp: 79, attack: 83, defense: 100, spAtk: 83, spDef: 83, speed: 78 },
     move: { name: 'Hydro Cannon', type: PokemonType.Water },
   },
   {
     name: 'Venusaur',
     types: [PokemonType.Grass, PokemonType.Poison],
+    energy: 0,
     stats: { hp: 80, attack: 82, defense: 83, spAtk: 100, spDef: 100, speed: 80 },
     move: { name: 'Solar Beam', type: PokemonType.Grass },
   },
   {
     name: 'Alakazam',
     types: [PokemonType.Psychic],
+    energy: 0,
     stats: { hp: 55, attack: 50, defense: 65, spAtk: 135, spDef: 85, speed: 120 },
     move: { name: 'Psychic', type: PokemonType.Psychic },
   },
@@ -190,12 +195,14 @@ describe('Recommendation Engine', () => {
       const highDefMezatag: Mezatag = {
         name: 'Haunter',
         types: [PokemonType.Ghost],
+        energy: 0,
         stats: { hp: 45, attack: 50, defense: 45, spAtk: 115, spDef: 55, speed: 95 },
         move: { name: 'Shadow Punch', type: PokemonType.Fighting },
       };
       const lowDefMezatag: Mezatag = {
         name: 'Rattata',
         types: [PokemonType.Normal],
+        energy: 0,
         stats: { hp: 30, attack: 56, defense: 35, spAtk: 25, spDef: 35, speed: 72 },
         move: { name: 'Tackle', type: PokemonType.Fighting },
       };
@@ -221,12 +228,14 @@ describe('Recommendation Engine', () => {
       const highAtkMezatag: Mezatag = {
         name: 'Geodude',
         types: [PokemonType.Rock],
+        energy: 0,
         stats: { hp: 40, attack: 80, defense: 100, spAtk: 30, spDef: 30, speed: 20 },
         move: { name: 'Rock Smash', type: PokemonType.Fighting },
       };
       const lowAtkMezatag: Mezatag = {
         name: 'Onix',
         types: [PokemonType.Rock],
+        energy: 0,
         stats: { hp: 35, attack: 45, defense: 160, spAtk: 30, spDef: 45, speed: 70 },
         move: { name: 'Tackle', type: PokemonType.Normal },
       };
@@ -253,12 +262,14 @@ describe('Recommendation Engine', () => {
       const highAtkMezatag: Mezatag = {
         name: 'Vaporeon',
         types: [PokemonType.Normal],
+        energy: 0,
         stats: { hp: 130, attack: 65, defense: 60, spAtk: 110, spDef: 95, speed: 65 },
         move: { name: 'Water Gun', type: PokemonType.Water },
       };
       const highDefMezatag: Mezatag = {
         name: 'Steelix',
         types: [PokemonType.Steel],
+        energy: 0,
         stats: { hp: 75, attack: 85, defense: 200, spAtk: 55, spDef: 65, speed: 30 },
         move: { name: 'Confusion', type: PokemonType.Psychic },
       };
@@ -270,6 +281,41 @@ describe('Recommendation Engine', () => {
       expect(balancedList[0].combinedScore).toBe(balancedList[1].combinedScore);
       expect(balancedList[0].mezatag.name).toBe('Vaporeon');
       expect(balancedList[1].mezatag.name).toBe('Steelix');
+    });
+
+    it('should break ties using energy ascending when all scores are equal', () => {
+      // Both Mezatags are identical in type and move → all scores are equal
+      // lowEnergyMezatag has energy=50, highEnergyMezatag has energy=150
+      // Lower energy should rank first in all three lists
+      const normalEnemy: Pokemon = {
+        name: 'Snorlax',
+        types: [PokemonType.Normal],
+        stats: { hp: 160, attack: 110, defense: 65, spAtk: 65, spDef: 110, speed: 30 },
+      };
+      const lowEnergyMezatag: Mezatag = {
+        name: 'LowEnergy',
+        types: [PokemonType.Fighting],
+        energy: 50,
+        stats: { hp: 70, attack: 90, defense: 70, spAtk: 45, spDef: 60, speed: 70 },
+        move: { name: 'Karate Chop', type: PokemonType.Fighting },
+      };
+      const highEnergyMezatag: Mezatag = {
+        name: 'HighEnergy',
+        types: [PokemonType.Fighting],
+        energy: 150,
+        stats: { hp: 70, attack: 90, defense: 70, spAtk: 45, spDef: 60, speed: 70 },
+        move: { name: 'Karate Chop', type: PokemonType.Fighting },
+      };
+
+      const recommendations = getRecommendations(normalEnemy, [
+        highEnergyMezatag,
+        lowEnergyMezatag,
+      ]);
+
+      // All scores are identical; lower energy (50) should rank first in all lists
+      expect(recommendations.attack.recommendations[0].mezatag.name).toBe('LowEnergy');
+      expect(recommendations.defense.recommendations[0].mezatag.name).toBe('LowEnergy');
+      expect(recommendations.balanced.recommendations[0].mezatag.name).toBe('LowEnergy');
     });
   });
 });

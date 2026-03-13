@@ -3,7 +3,7 @@
  * Shows three collapsible sections: Attack, Defense, and Balanced recommendations
  */
 
-import { Recommendation } from '../domain/models';
+import { Recommendation, ScoredMezatag } from '../domain/models';
 
 export class RecommendationDisplay {
   private container: HTMLElement;
@@ -178,7 +178,7 @@ export class RecommendationDisplay {
     return section;
   }
 
-  private createMezatagItem(scored: any): HTMLElement {
+  private createMezatagItem(scored: ScoredMezatag): HTMLElement {
     const item = document.createElement('div');
     item.style.cssText = `
       padding: 12px 16px;
@@ -216,7 +216,7 @@ export class RecommendationDisplay {
       font-size: 14px;
       margin-bottom: 4px;
     `;
-    name.textContent = `${scored.mezatag.name}`;
+    name.textContent = `${scored.mezatag.name}(${scored.mezatag.energy})`;
 
     const move = document.createElement('div');
     move.style.cssText = `

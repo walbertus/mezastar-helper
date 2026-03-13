@@ -5,6 +5,7 @@
       "Fairy",
       "Steel"
     ],
+    "energy": 162,
     "stats": {
       "hp": 152,
       "attack": 175,
@@ -25,6 +26,7 @@
       "Fighting",
       "Steel"
     ],
+    "energy": 162,
     "stats": {
       "hp": 152,
       "attack": 135,
@@ -44,6 +46,7 @@
     "types": [
       "Water"
     ],
+    "energy": 152,
     "stats": {
       "hp": 160,
       "attack": 105,
@@ -63,6 +66,7 @@
     "types": [
       "Ground"
     ],
+    "energy": 152,
     "stats": {
       "hp": 160,
       "attack": 155,
@@ -83,6 +87,7 @@
       "Dragon",
       "Flying"
     ],
+    "energy": 154,
     "stats": {
       "hp": 165,
       "attack": 155,
@@ -103,6 +108,7 @@
       "Grass",
       "Poison"
     ],
+    "energy": 122,
     "stats": {
       "hp": 140,
       "attack": 87,
@@ -123,6 +129,7 @@
       "Fire",
       "Flying"
     ],
+    "energy": 124,
     "stats": {
       "hp": 138,
       "attack": 89,
@@ -142,6 +149,7 @@
     "types": [
       "Water"
     ],
+    "energy": 124,
     "stats": {
       "hp": 139,
       "attack": 88,
@@ -162,6 +170,7 @@
       "Ice",
       "Fairy"
     ],
+    "energy": 118,
     "stats": {
       "hp": 133,
       "attack": 72,
@@ -181,6 +190,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 102,
     "stats": {
       "hp": 118,
       "attack": 75,
@@ -200,6 +210,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 108,
     "stats": {
       "hp": 142,
       "attack": 115,
@@ -219,6 +230,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 108,
     "stats": {
       "hp": 124,
       "attack": 107,
@@ -238,6 +250,7 @@
     "types": [
       "Water"
     ],
+    "energy": 108,
     "stats": {
       "hp": 115,
       "attack": 79,
@@ -257,6 +270,7 @@
     "types": [
       "Fighting"
     ],
+    "energy": 104,
     "stats": {
       "hp": 108,
       "attack": 123,
@@ -277,6 +291,7 @@
       "Steel",
       "Dragon"
     ],
+    "energy": 110,
     "stats": {
       "hp": 115,
       "attack": 88,
@@ -297,6 +312,7 @@
       "Normal",
       "Flying"
     ],
+    "energy": 100,
     "stats": {
       "hp": 127,
       "attack": 75,
@@ -317,6 +333,7 @@
       "Rock",
       "Flying"
     ],
+    "energy": 106,
     "stats": {
       "hp": 124,
       "attack": 97,
@@ -336,6 +353,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 114,
     "stats": {
       "hp": 133,
       "attack": 101,
@@ -356,6 +374,7 @@
       "Ground",
       "Rock"
     ],
+    "energy": 110,
     "stats": {
       "hp": 155,
       "attack": 128,
@@ -376,6 +395,7 @@
       "Water",
       "Ice"
     ],
+    "energy": 110,
     "stats": {
       "hp": 168,
       "attack": 79,
@@ -396,6 +416,7 @@
       "Electric",
       "Steel"
     ],
+    "energy": 110,
     "stats": {
       "hp": 115,
       "attack": 66,
@@ -415,6 +436,7 @@
     "types": [
       "Water"
     ],
+    "energy": 108,
     "stats": {
       "hp": 168,
       "attack": 62,
@@ -434,6 +456,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 108,
     "stats": {
       "hp": 111,
       "attack": 62,
@@ -453,6 +476,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 108,
     "stats": {
       "hp": 111,
       "attack": 119,
@@ -473,6 +497,7 @@
       "Psychic",
       "Grass"
     ],
+    "energy": 122,
     "stats": {
       "hp": 142,
       "attack": 93,
@@ -492,6 +517,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 42,
     "stats": {
       "hp": 58,
       "attack": 36,
@@ -511,6 +537,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 64,
     "stats": {
       "hp": 82,
       "attack": 56,
@@ -530,6 +557,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 90,
     "stats": {
       "hp": 118,
       "attack": 95,
@@ -549,6 +577,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 42,
     "stats": {
       "hp": 58,
       "attack": 40,
@@ -568,6 +597,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 64,
     "stats": {
       "hp": 79,
       "attack": 56,
@@ -587,6 +617,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 90,
     "stats": {
       "hp": 103,
       "attack": 88,
@@ -606,6 +637,7 @@
     "types": [
       "Water"
     ],
+    "energy": 42,
     "stats": {
       "hp": 58,
       "attack": 24,
@@ -625,6 +657,7 @@
     "types": [
       "Water"
     ],
+    "energy": 64,
     "stats": {
       "hp": 79,
       "attack": 41,
@@ -644,6 +677,7 @@
     "types": [
       "Water"
     ],
+    "energy": 90,
     "stats": {
       "hp": 96,
       "attack": 66,
@@ -663,6 +697,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 42,
     "stats": {
       "hp": 60,
       "attack": 33,
@@ -682,6 +717,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 62,
     "stats": {
       "hp": 76,
       "attack": 51,
@@ -702,6 +738,7 @@
       "Grass",
       "Fighting"
     ],
+    "energy": 90,
     "stats": {
       "hp": 109,
       "attack": 82,
@@ -721,6 +758,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 40,
     "stats": {
       "hp": 53,
       "attack": 26,
@@ -740,6 +778,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 62,
     "stats": {
       "hp": 75,
       "attack": 40,
@@ -760,6 +799,7 @@
       "Fire",
       "Psychic"
     ],
+    "energy": 90,
     "stats": {
       "hp": 100,
       "attack": 54,
@@ -779,6 +819,7 @@
     "types": [
       "Water"
     ],
+    "energy": 42,
     "stats": {
       "hp": 53,
       "attack": 31,
@@ -798,6 +839,7 @@
     "types": [
       "Water"
     ],
+    "energy": 62,
     "stats": {
       "hp": 72,
       "attack": 42,
@@ -818,6 +860,7 @@
       "Water",
       "Dark"
     ],
+    "energy": 90,
     "stats": {
       "hp": 97,
       "attack": 73,
@@ -837,6 +880,7 @@
     "types": [
       "Normal"
     ],
+    "energy": 38,
     "stats": {
       "hp": 54,
       "attack": 24,
@@ -856,6 +900,7 @@
     "types": [
       "Normal"
     ],
+    "energy": 72,
     "stats": {
       "hp": 83,
       "attack": 53,
@@ -875,6 +920,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 38,
     "stats": {
       "hp": 62,
       "attack": 26,
@@ -894,6 +940,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 84,
     "stats": {
       "hp": 95,
       "attack": 69,
@@ -913,6 +960,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 44,
     "stats": {
       "hp": 64,
       "attack": 28,
@@ -932,6 +980,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 80,
     "stats": {
       "hp": 89,
       "attack": 41,
@@ -952,6 +1001,7 @@
       "Flying",
       "Water"
     ],
+    "energy": 70,
     "stats": {
       "hp": 82,
       "attack": 56,
@@ -972,6 +1022,7 @@
       "Normal",
       "Flying"
     ],
+    "energy": 36,
     "stats": {
       "hp": 53,
       "attack": 26,
@@ -992,6 +1043,7 @@
       "Normal",
       "Flying"
     ],
+    "energy": 54,
     "stats": {
       "hp": 77,
       "attack": 41,
@@ -1012,6 +1064,7 @@
       "Normal",
       "Flying"
     ],
+    "energy": 82,
     "stats": {
       "hp": 105,
       "attack": 62,
@@ -1032,6 +1085,7 @@
       "Water",
       "Psychic"
     ],
+    "energy": 42,
     "stats": {
       "hp": 77,
       "attack": 37,
@@ -1052,6 +1106,7 @@
       "Water",
       "Psychic"
     ],
+    "energy": 84,
     "stats": {
       "hp": 114,
       "attack": 59,
@@ -1071,6 +1126,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 60,
     "stats": {
       "hp": 71,
       "attack": 44,
@@ -1090,6 +1146,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 84,
     "stats": {
       "hp": 89,
       "attack": 69,
@@ -1110,6 +1167,7 @@
       "Ice",
       "Steel"
     ],
+    "energy": 40,
     "stats": {
       "hp": 58,
       "attack": 41,
@@ -1130,6 +1188,7 @@
       "Ice",
       "Steel"
     ],
+    "energy": 78,
     "stats": {
       "hp": 100,
       "attack": 77,
@@ -1149,6 +1208,7 @@
     "types": [
       "Normal"
     ],
+    "energy": 60,
     "stats": {
       "hp": 85,
       "attack": 44,
@@ -1168,6 +1228,7 @@
     "types": [
       "Water"
     ],
+    "energy": 90,
     "stats": {
       "hp": 139,
       "attack": 51,
@@ -1187,6 +1248,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 90,
     "stats": {
       "hp": 92,
       "attack": 51,
@@ -1206,6 +1268,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 90,
     "stats": {
       "hp": 92,
       "attack": 99,
@@ -1226,6 +1289,7 @@
       "Normal",
       "Flying"
     ],
+    "energy": 40,
     "stats": {
       "hp": 50,
       "attack": 46,
@@ -1246,6 +1310,7 @@
       "Normal",
       "Flying"
     ],
+    "energy": 82,
     "stats": {
       "hp": 89,
       "attack": 84,
@@ -1266,6 +1331,7 @@
       "Electric",
       "Fairy"
     ],
+    "energy": 52,
     "stats": {
       "hp": 66,
       "attack": 32,
@@ -1286,6 +1352,7 @@
       "Ice",
       "Psychic"
     ],
+    "energy": 68,
     "stats": {
       "hp": 79,
       "attack": 35,
@@ -1306,6 +1373,7 @@
       "Ghost",
       "Grass"
     ],
+    "energy": 74,
     "stats": {
       "hp": 82,
       "attack": 85,
@@ -1326,6 +1394,7 @@
       "Rock",
       "Ground"
     ],
+    "energy": 60,
     "stats": {
       "hp": 61,
       "attack": 32,
@@ -1346,6 +1415,7 @@
       "Fire",
       "Dragon"
     ],
+    "energy": 84,
     "stats": {
       "hp": 89,
       "attack": 61,
@@ -1365,6 +1435,7 @@
     "types": [
       "Psychic"
     ],
+    "energy": 158,
     "stats": {
       "hp": 172,
       "attack": 119,
@@ -1384,6 +1455,7 @@
     "types": [
       "Psychic"
     ],
+    "energy": 142,
     "stats": {
       "hp": 166,
       "attack": 109,
@@ -1404,6 +1476,7 @@
       "Dragon",
       "Ground"
     ],
+    "energy": 164,
     "stats": {
       "hp": 286,
       "attack": 109,
@@ -1423,6 +1496,7 @@
     "types": [
       "Dark"
     ],
+    "energy": 142,
     "stats": {
       "hp": 134,
       "attack": 98,
@@ -1443,6 +1517,7 @@
       "Water",
       "Fighting"
     ],
+    "energy": 138,
     "stats": {
       "hp": 156,
       "attack": 79,
@@ -1463,6 +1538,7 @@
       "Ghost",
       "Fairy"
     ],
+    "energy": 126,
     "stats": {
       "hp": 119,
       "attack": 98,
@@ -1483,6 +1559,7 @@
       "Dark",
       "Dragon"
     ],
+    "energy": 142,
     "stats": {
       "hp": 157,
       "attack": 114,
@@ -1503,6 +1580,7 @@
       "Fighting",
       "Steel"
     ],
+    "energy": 126,
     "stats": {
       "hp": 134,
       "attack": 119,
@@ -1523,6 +1601,7 @@
       "Psychic",
       "Fairy"
     ],
+    "energy": 124,
     "stats": {
       "hp": 132,
       "attack": 72,
@@ -1543,6 +1622,7 @@
       "Bug",
       "Steel"
     ],
+    "energy": 122,
     "stats": {
       "hp": 134,
       "attack": 140,
@@ -1563,6 +1643,7 @@
       "Grass",
       "Ground"
     ],
+    "energy": 112,
     "stats": {
       "hp": 143,
       "attack": 105,
@@ -1583,6 +1664,7 @@
       "Fire",
       "Fighting"
     ],
+    "energy": 114,
     "stats": {
       "hp": 125,
       "attack": 100,
@@ -1603,6 +1685,7 @@
       "Water",
       "Steel"
     ],
+    "energy": 114,
     "stats": {
       "hp": 133,
       "attack": 84,
@@ -1623,6 +1706,7 @@
       "Water",
       "Rock"
     ],
+    "energy": 104,
     "stats": {
       "hp": 138,
       "attack": 110,
@@ -1643,6 +1727,7 @@
       "Dark",
       "Normal"
     ],
+    "energy": 112,
     "stats": {
       "hp": 141,
       "attack": 87,
@@ -1663,6 +1748,7 @@
       "Ground",
       "Ghost"
     ],
+    "energy": 104,
     "stats": {
       "hp": 109,
       "attack": 92,
@@ -1683,6 +1769,7 @@
       "Psychic",
       "Fairy"
     ],
+    "energy": 108,
     "stats": {
       "hp": 115,
       "attack": 97,
@@ -1703,6 +1790,7 @@
       "Ghost",
       "Poison"
     ],
+    "energy": 108,
     "stats": {
       "hp": 111,
       "attack": 64,
@@ -1723,6 +1811,7 @@
       "Water",
       "Psychic"
     ],
+    "energy": 106,
     "stats": {
       "hp": 143,
       "attack": 74,
@@ -1743,6 +1832,7 @@
       "Rock",
       "Dark"
     ],
+    "energy": 126,
     "stats": {
       "hp": 148,
       "attack": 128,
@@ -1762,6 +1852,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 96,
     "stats": {
       "hp": 112,
       "attack": 71,
@@ -1782,6 +1873,7 @@
       "Bug",
       "Water"
     ],
+    "energy": 114,
     "stats": {
       "hp": 125,
       "attack": 120,
@@ -1801,6 +1893,7 @@
     "types": [
       "Psychic"
     ],
+    "energy": 112,
     "stats": {
       "hp": 115,
       "attack": 64,
@@ -1820,6 +1913,7 @@
     "types": [
       "Dark"
     ],
+    "energy": 112,
     "stats": {
       "hp": 143,
       "attack": 64,
@@ -1840,6 +1934,7 @@
       "Water",
       "Fighting"
     ],
+    "energy": 122,
     "stats": {
       "hp": 139,
       "attack": 71,
@@ -1859,6 +1954,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 44,
     "stats": {
       "hp": 62,
       "attack": 39,
@@ -1878,6 +1974,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 64,
     "stats": {
       "hp": 87,
       "attack": 60,
@@ -1898,6 +1995,7 @@
       "Grass",
       "Ground"
     ],
+    "energy": 92,
     "stats": {
       "hp": 117,
       "attack": 85,
@@ -1917,6 +2015,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 42,
     "stats": {
       "hp": 57,
       "attack": 34,
@@ -1937,6 +2036,7 @@
       "Fire",
       "Fighting"
     ],
+    "energy": 64,
     "stats": {
       "hp": 80,
       "attack": 53,
@@ -1957,6 +2057,7 @@
       "Fire",
       "Fighting"
     ],
+    "energy": 92,
     "stats": {
       "hp": 103,
       "attack": 81,
@@ -1976,6 +2077,7 @@
     "types": [
       "Water"
     ],
+    "energy": 44,
     "stats": {
       "hp": 61,
       "attack": 30,
@@ -1995,6 +2097,7 @@
     "types": [
       "Water"
     ],
+    "energy": 64,
     "stats": {
       "hp": 80,
       "attack": 45,
@@ -2015,6 +2118,7 @@
       "Water",
       "Steel"
     ],
+    "energy": 92,
     "stats": {
       "hp": 109,
       "attack": 68,
@@ -2035,6 +2139,7 @@
       "Dark",
       "Normal"
     ],
+    "energy": 36,
     "stats": {
       "hp": 54,
       "attack": 20,
@@ -2055,6 +2160,7 @@
       "Dark",
       "Normal"
     ],
+    "energy": 64,
     "stats": {
       "hp": 89,
       "attack": 48,
@@ -2075,6 +2181,7 @@
       "Dark",
       "Normal"
     ],
+    "energy": 90,
     "stats": {
       "hp": 115,
       "attack": 71,
@@ -2094,6 +2201,7 @@
     "types": [
       "Fighting"
     ],
+    "energy": 72,
     "stats": {
       "hp": 81,
       "attack": 67,
@@ -2113,6 +2221,7 @@
     "types": [
       "Fighting"
     ],
+    "energy": 50,
     "stats": {
       "hp": 61,
       "attack": 52,
@@ -2132,6 +2241,7 @@
     "types": [
       "Fighting"
     ],
+    "energy": 88,
     "stats": {
       "hp": 92,
       "attack": 105,
@@ -2151,6 +2261,7 @@
     "types": [
       "Psychic"
     ],
+    "energy": 64,
     "stats": {
       "hp": 72,
       "attack": 57,
@@ -2171,6 +2282,7 @@
       "Psychic",
       "Fairy"
     ],
+    "energy": 88,
     "stats": {
       "hp": 95,
       "attack": 79,
@@ -2190,6 +2302,7 @@
     "types": [
       "Water"
     ],
+    "energy": 40,
     "stats": {
       "hp": 60,
       "attack": 37,
@@ -2210,6 +2323,7 @@
       "Water",
       "Rock"
     ],
+    "energy": 86,
     "stats": {
       "hp": 113,
       "attack": 90,
@@ -2229,6 +2343,7 @@
     "types": [
       "Bug"
     ],
+    "energy": 42,
     "stats": {
       "hp": 58,
       "attack": 36,
@@ -2249,6 +2364,7 @@
       "Bug",
       "Electric"
     ],
+    "energy": 62,
     "stats": {
       "hp": 76,
       "attack": 55,
@@ -2269,6 +2385,7 @@
       "Bug",
       "Electric"
     ],
+    "energy": 88,
     "stats": {
       "hp": 103,
       "attack": 56,
@@ -2288,6 +2405,7 @@
     "types": [
       "Fighting"
     ],
+    "energy": 42,
     "stats": {
       "hp": 70,
       "attack": 45,
@@ -2307,6 +2425,7 @@
     "types": [
       "Fighting"
     ],
+    "energy": 64,
     "stats": {
       "hp": 90,
       "attack": 67,
@@ -2326,6 +2445,7 @@
     "types": [
       "Fighting"
     ],
+    "energy": 88,
     "stats": {
       "hp": 113,
       "attack": 101,
@@ -2345,6 +2465,7 @@
     "types": [
       "Psychic"
     ],
+    "energy": 42,
     "stats": {
       "hp": 47,
       "attack": 13,
@@ -2364,6 +2485,7 @@
     "types": [
       "Psychic"
     ],
+    "energy": 62,
     "stats": {
       "hp": 65,
       "attack": 26,
@@ -2383,6 +2505,7 @@
     "types": [
       "Psychic"
     ],
+    "energy": 88,
     "stats": {
       "hp": 87,
       "attack": 41,
@@ -2402,6 +2525,7 @@
     "types": [
       "Fighting"
     ],
+    "energy": 46,
     "stats": {
       "hp": 68,
       "attack": 46,
@@ -2422,6 +2546,7 @@
       "Fighting",
       "Dark"
     ],
+    "energy": 88,
     "stats": {
       "hp": 117,
       "attack": 97,
@@ -2442,6 +2567,7 @@
       "Dark",
       "Ice"
     ],
+    "energy": 66,
     "stats": {
       "hp": 75,
       "attack": 63,
@@ -2462,6 +2588,7 @@
       "Dark",
       "Ice"
     ],
+    "energy": 90,
     "stats": {
       "hp": 98,
       "attack": 93,
@@ -2482,6 +2609,7 @@
       "Ghost",
       "Flying"
     ],
+    "energy": 56,
     "stats": {
       "hp": 96,
       "attack": 36,
@@ -2502,6 +2630,7 @@
       "Ghost",
       "Flying"
     ],
+    "energy": 88,
     "stats": {
       "hp": 158,
       "attack": 64,
@@ -2522,6 +2651,7 @@
       "Steel",
       "Psychic"
     ],
+    "energy": 42,
     "stats": {
       "hp": 63,
       "attack": 17,
@@ -2542,6 +2672,7 @@
       "Steel",
       "Psychic"
     ],
+    "energy": 74,
     "stats": {
       "hp": 82,
       "attack": 60,
@@ -2562,6 +2693,7 @@
       "Ground",
       "Ghost"
     ],
+    "energy": 42,
     "stats": {
       "hp": 64,
       "attack": 42,
@@ -2582,6 +2714,7 @@
       "Ground",
       "Ghost"
     ],
+    "energy": 72,
     "stats": {
       "hp": 96,
       "attack": 81,
@@ -2602,6 +2735,7 @@
       "Bug",
       "Water"
     ],
+    "energy": 34,
     "stats": {
       "hp": 47,
       "attack": 22,
@@ -2622,6 +2756,7 @@
       "Bug",
       "Water"
     ],
+    "energy": 92,
     "stats": {
       "hp": 102,
       "attack": 97,
@@ -2641,6 +2776,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 74,
     "stats": {
       "hp": 86,
       "attack": 54,
@@ -2660,6 +2796,7 @@
     "types": [
       "Psychic"
     ],
+    "energy": 92,
     "stats": {
       "hp": 95,
       "attack": 53,
@@ -2679,6 +2816,7 @@
     "types": [
       "Dark"
     ],
+    "energy": 92,
     "stats": {
       "hp": 117,
       "attack": 53,
@@ -2699,6 +2837,7 @@
       "Psychic",
       "Fairy"
     ],
+    "energy": 70,
     "stats": {
       "hp": 65,
       "attack": 32,
@@ -2718,6 +2857,7 @@
     "types": [
       "Normal"
     ],
+    "energy": 54,
     "stats": {
       "hp": 85,
       "attack": 40,
@@ -2738,6 +2878,7 @@
       "Dragon",
       "Fire"
     ],
+    "energy": 162,
     "stats": {
       "hp": 169,
       "attack": 132,
@@ -2758,6 +2899,7 @@
       "Dragon",
       "Electric"
     ],
+    "energy": 162,
     "stats": {
       "hp": 169,
       "attack": 164,
@@ -2778,6 +2920,7 @@
       "Dragon",
       "Ice"
     ],
+    "energy": 156,
     "stats": {
       "hp": 195,
       "attack": 142,
@@ -2798,6 +2941,7 @@
       "Psychic",
       "Flying"
     ],
+    "energy": 162,
     "stats": {
       "hp": 175,
       "attack": 100,
@@ -2818,6 +2962,7 @@
       "Rock",
       "Fairy"
     ],
+    "energy": 144,
     "stats": {
       "hp": 116,
       "attack": 111,
@@ -2838,6 +2983,7 @@
       "Water",
       "Flying"
     ],
+    "energy": 132,
     "stats": {
       "hp": 163,
       "attack": 137,
@@ -2858,6 +3004,7 @@
       "Rock",
       "Dark"
     ],
+    "energy": 144,
     "stats": {
       "hp": 169,
       "attack": 147,
@@ -2878,6 +3025,7 @@
       "Fire",
       "Flying"
     ],
+    "energy": 138,
     "stats": {
       "hp": 153,
       "attack": 99,
@@ -2898,6 +3046,7 @@
       "Steel",
       "Psychic"
     ],
+    "energy": 144,
     "stats": {
       "hp": 147,
       "attack": 148,
@@ -2918,6 +3067,7 @@
       "Dragon",
       "Ground"
     ],
+    "energy": 144,
     "stats": {
       "hp": 177,
       "attack": 142,
@@ -2937,6 +3087,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 96,
     "stats": {
       "hp": 113,
       "attack": 72,
@@ -2957,6 +3108,7 @@
       "Ground",
       "Dragon"
     ],
+    "energy": 114,
     "stats": {
       "hp": 132,
       "attack": 99,
@@ -2976,6 +3128,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 116,
     "stats": {
       "hp": 127,
       "attack": 75,
@@ -2996,6 +3149,7 @@
       "Fire",
       "Fighting"
     ],
+    "energy": 116,
     "stats": {
       "hp": 160,
       "attack": 120,
@@ -3015,6 +3169,7 @@
     "types": [
       "Water"
     ],
+    "energy": 116,
     "stats": {
       "hp": 146,
       "attack": 99,
@@ -3035,6 +3190,7 @@
       "Flying",
       "Steel"
     ],
+    "energy": 108,
     "stats": {
       "hp": 149,
       "attack": 86,
@@ -3055,6 +3211,7 @@
       "Rock",
       "Fire"
     ],
+    "energy": 112,
     "stats": {
       "hp": 160,
       "attack": 80,
@@ -3075,6 +3232,7 @@
       "Electric",
       "Poison"
     ],
+    "energy": 110,
     "stats": {
       "hp": 127,
       "attack": 97,
@@ -3095,6 +3253,7 @@
       "Electric",
       "Poison"
     ],
+    "energy": 110,
     "stats": {
       "hp": 127,
       "attack": 97,
@@ -3115,6 +3274,7 @@
       "Fire",
       "Bug"
     ],
+    "energy": 114,
     "stats": {
       "hp": 151,
       "attack": 113,
@@ -3134,6 +3294,7 @@
     "types": [
       "Ice"
     ],
+    "energy": 114,
     "stats": {
       "hp": 118,
       "attack": 61,
@@ -3153,6 +3314,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 114,
     "stats": {
       "hp": 118,
       "attack": 108,
@@ -3172,6 +3334,7 @@
     "types": [
       "Flying"
     ],
+    "energy": 126,
     "stats": {
       "hp": 131,
       "attack": 113,
@@ -3192,6 +3355,7 @@
       "Flying",
       "Electric"
     ],
+    "energy": 126,
     "stats": {
       "hp": 131,
       "attack": 113,
@@ -3212,6 +3376,7 @@
       "Flying",
       "Ground"
     ],
+    "energy": 128,
     "stats": {
       "hp": 140,
       "attack": 122,
@@ -3231,6 +3396,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 42,
     "stats": {
       "hp": 57,
       "attack": 27,
@@ -3250,6 +3416,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 66,
     "stats": {
       "hp": 80,
       "attack": 43,
@@ -3269,6 +3436,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 94,
     "stats": {
       "hp": 105,
       "attack": 62,
@@ -3288,6 +3456,7 @@
     "types": [
       "Fire"
     ],
+    "energy": 42,
     "stats": {
       "hp": 67,
       "attack": 36,
@@ -3308,6 +3477,7 @@
       "Fire",
       "Fighting"
     ],
+    "energy": 66,
     "stats": {
       "hp": 99,
       "attack": 64,
@@ -3328,6 +3498,7 @@
       "Fire",
       "Fighting"
     ],
+    "energy": 94,
     "stats": {
       "hp": 131,
       "attack": 98,
@@ -3347,6 +3518,7 @@
     "types": [
       "Water"
     ],
+    "energy": 42,
     "stats": {
       "hp": 62,
       "attack": 32,
@@ -3366,6 +3538,7 @@
     "types": [
       "Water"
     ],
+    "energy": 66,
     "stats": {
       "hp": 90,
       "attack": 53,
@@ -3385,6 +3558,7 @@
     "types": [
       "Water"
     ],
+    "energy": 94,
     "stats": {
       "hp": 120,
       "attack": 81,
@@ -3404,6 +3578,7 @@
     "types": [
       "Normal"
     ],
+    "energy": 40,
     "stats": {
       "hp": 70,
       "attack": 33,
@@ -3423,6 +3598,7 @@
     "types": [
       "Normal"
     ],
+    "energy": 84,
     "stats": {
       "hp": 139,
       "attack": 78,
@@ -3442,6 +3618,7 @@
     "types": [
       "Flying"
     ],
+    "energy": 36,
     "stats": {
       "hp": 54,
       "attack": 28,
@@ -3461,6 +3638,7 @@
     "types": [
       "Flying"
     ],
+    "energy": 60,
     "stats": {
       "hp": 85,
       "attack": 47,
@@ -3481,6 +3659,7 @@
       "Flying",
       "Steel"
     ],
+    "energy": 90,
     "stats": {
       "hp": 122,
       "attack": 71,
@@ -3501,6 +3680,7 @@
       "Electric",
       "Poison"
     ],
+    "energy": 36,
     "stats": {
       "hp": 55,
       "attack": 24,
@@ -3521,6 +3701,7 @@
       "Electric",
       "Poison"
     ],
+    "energy": 90,
     "stats": {
       "hp": 105,
       "attack": 79,
@@ -3541,6 +3722,7 @@
       "Electric",
       "Poison"
     ],
+    "energy": 90,
     "stats": {
       "hp": 105,
       "attack": 79,
@@ -3561,6 +3743,7 @@
       "Fire",
       "Bug"
     ],
+    "energy": 52,
     "stats": {
       "hp": 74,
       "attack": 46,
@@ -3581,6 +3764,7 @@
       "Fire",
       "Bug"
     ],
+    "energy": 94,
     "stats": {
       "hp": 124,
       "attack": 92,
@@ -3601,6 +3785,7 @@
       "Psychic",
       "Fairy"
     ],
+    "energy": 42,
     "stats": {
       "hp": 45,
       "attack": 16,
@@ -3621,6 +3806,7 @@
       "Ice",
       "Psychic"
     ],
+    "energy": 72,
     "stats": {
       "hp": 74,
       "attack": 46,
@@ -3641,6 +3827,7 @@
       "Ice",
       "Psychic"
     ],
+    "energy": 94,
     "stats": {
       "hp": 108,
       "attack": 69,
@@ -3661,6 +3848,7 @@
       "Ice",
       "Bug"
     ],
+    "energy": 30,
     "stats": {
       "hp": 50,
       "attack": 17,
@@ -3681,6 +3869,7 @@
       "Ice",
       "Bug"
     ],
+    "energy": 86,
     "stats": {
       "hp": 101,
       "attack": 54,
@@ -3701,6 +3890,7 @@
       "Ground",
       "Dark"
     ],
+    "energy": 40,
     "stats": {
       "hp": 60,
       "attack": 41,
@@ -3721,6 +3911,7 @@
       "Ground",
       "Dark"
     ],
+    "energy": 58,
     "stats": {
       "hp": 80,
       "attack": 57,
@@ -3741,6 +3932,7 @@
       "Ground",
       "Dark"
     ],
+    "energy": 92,
     "stats": {
       "hp": 120,
       "attack": 93,
@@ -3760,6 +3952,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 40,
     "stats": {
       "hp": 52,
       "attack": 33,
@@ -3779,6 +3972,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 64,
     "stats": {
       "hp": 83,
       "attack": 60,
@@ -3798,6 +3992,7 @@
     "types": [
       "Electric"
     ],
+    "energy": 92,
     "stats": {
       "hp": 112,
       "attack": 92,
@@ -3818,6 +4013,7 @@
       "Water",
       "Flying"
     ],
+    "energy": 38,
     "stats": {
       "hp": 55,
       "attack": 19,
@@ -3838,6 +4034,7 @@
       "Water",
       "Flying"
     ],
+    "energy": 70,
     "stats": {
       "hp": 80,
       "attack": 37,
@@ -3857,6 +4054,7 @@
     "types": [
       "Rock"
     ],
+    "energy": 40,
     "stats": {
       "hp": 60,
       "attack": 45,
@@ -3876,6 +4074,7 @@
     "types": [
       "Rock"
     ],
+    "energy": 66,
     "stats": {
       "hp": 86,
       "attack": 69,
@@ -3895,6 +4094,7 @@
     "types": [
       "Ground"
     ],
+    "energy": 62,
     "stats": {
       "hp": 86,
       "attack": 69,
@@ -3914,6 +4114,7 @@
     "types": [
       "Ground"
     ],
+    "energy": 90,
     "stats": {
       "hp": 124,
       "attack": 100,
@@ -3933,6 +4134,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 36,
     "stats": {
       "hp": 55,
       "attack": 32,
@@ -3952,6 +4154,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 74,
     "stats": {
       "hp": 86,
       "attack": 72,
@@ -3971,6 +4174,7 @@
     "types": [
       "Rock"
     ],
+    "energy": 60,
     "stats": {
       "hp": 61,
       "attack": 33,
@@ -3991,6 +4195,7 @@
       "Rock",
       "Steel"
     ],
+    "energy": 94,
     "stats": {
       "hp": 93,
       "attack": 46,
@@ -4011,6 +4216,7 @@
       "Grass",
       "Steel"
     ],
+    "energy": 42,
     "stats": {
       "hp": 57,
       "attack": 30,
@@ -4031,6 +4237,7 @@
       "Grass",
       "Steel"
     ],
+    "energy": 88,
     "stats": {
       "hp": 104,
       "attack": 76,
@@ -4050,6 +4257,7 @@
     "types": [
       "Grass"
     ],
+    "energy": 94,
     "stats": {
       "hp": 97,
       "attack": 88,
@@ -4069,6 +4277,7 @@
     "types": [
       "Ice"
     ],
+    "energy": 94,
     "stats": {
       "hp": 97,
       "attack": 50,
@@ -4089,6 +4298,7 @@
       "Electric",
       "Steel"
     ],
+    "energy": 68,
     "stats": {
       "hp": 83,
       "attack": 67,

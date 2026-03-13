@@ -36,18 +36,25 @@ export function getRecommendations(
   // Score all Mezatags
   const scoredMezatags = mezatags.map((mezatag) => scoreMezatag(mezatag, enemyPokemon));
 
-  // Sort by different criteria; ties broken by the complementary score, then the other score
+  // Sort by different criteria; ties broken by the complementary score, then energy ascending (lower energy = higher priority)
   const byAttack = [...scoredMezatags].sort(
-    (a, b) => b.offensiveScore - a.offensiveScore || b.defensiveScore - a.defensiveScore
+    (a, b) =>
+      b.offensiveScore - a.offensiveScore ||
+      b.defensiveScore - a.defensiveScore ||
+      a.mezatag.energy - b.mezatag.energy
   );
   const byDefense = [...scoredMezatags].sort(
-    (a, b) => b.defensiveScore - a.defensiveScore || b.offensiveScore - a.offensiveScore
+    (a, b) =>
+      b.defensiveScore - a.defensiveScore ||
+      b.offensiveScore - a.offensiveScore ||
+      a.mezatag.energy - b.mezatag.energy
   );
   const byCombined = [...scoredMezatags].sort(
     (a, b) =>
       b.combinedScore - a.combinedScore ||
       b.offensiveScore - a.offensiveScore ||
-      b.defensiveScore - a.defensiveScore
+      b.defensiveScore - a.defensiveScore ||
+      a.mezatag.energy - b.mezatag.energy
   );
 
   return {
