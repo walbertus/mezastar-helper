@@ -18,6 +18,7 @@ Pokemon can have multiple Types.
   1. User click one of the Pokemon shown from the list
   1. User see top 6 list of recommended Pokemon to deploy to battle. The list will only show the Name and Mezatag image from Bulbapedia.
   There are three lists, one for attack and one for defence and one for 50/50 between attack and defence. If image failed to load show placeholder image. This recommendation will only consider the type of Pokemon and the move, it does not consider Pokemon stat.
+  1. For the attack list (similar for defense list), if there are multiple Pokemon with the same attack then sort it based on defense.
 
 
 ## Deployment

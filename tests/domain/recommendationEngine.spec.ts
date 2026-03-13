@@ -177,5 +177,99 @@ describe('Recommendation Engine', () => {
       const expectedCombined = (rec.offensiveScore + rec.defensiveScore) / 2;
       expect(rec.combinedScore).toBe(expectedCombined);
     });
+
+    it('should break attack list ties using defensiveScore descending', () => {
+      // Both Mezatags use Fighting move → offensiveScore = 2.0 vs Normal enemy (tied)
+      // Ghost type is immune to Normal attacks → defensiveScore = 4.0 (higher)
+      // Normal type takes 2x from Fighting → defensiveScore = 0.5 (lower)
+      const normalEnemy: Pokemon = {
+        name: 'Snorlax',
+        types: [PokemonType.Normal],
+        stats: { hp: 160, attack: 110, defense: 65, spAtk: 65, spDef: 110, speed: 30 },
+      };
+      const highDefMezatag: Mezatag = {
+        name: 'Haunter',
+        types: [PokemonType.Ghost],
+        stats: { hp: 45, attack: 50, defense: 45, spAtk: 115, spDef: 55, speed: 95 },
+        move: { name: 'Shadow Punch', type: PokemonType.Fighting },
+      };
+      const lowDefMezatag: Mezatag = {
+        name: 'Rattata',
+        types: [PokemonType.Normal],
+        stats: { hp: 30, attack: 56, defense: 35, spAtk: 25, spDef: 35, speed: 72 },
+        move: { name: 'Tackle', type: PokemonType.Fighting },
+      };
+
+      const recommendations = getRecommendations(normalEnemy, [lowDefMezatag, highDefMezatag]);
+      const attackList = recommendations.attack.recommendations;
+
+      // Both have equal offensiveScore; highDefMezatag (Ghost, def=4.0) should rank first
+      expect(attackList[0].offensiveScore).toBe(attackList[1].offensiveScore);
+      expect(attackList[0].mezatag.name).toBe('Haunter');
+      expect(attackList[1].mezatag.name).toBe('Rattata');
+    });
+
+    it('should break defense list ties using offensiveScore descending', () => {
+      // Both Mezatags have Rock type → defensiveScore is equal vs Normal enemy (tied)
+      // Fighting move is super-effective vs Normal → offensiveScore = 2.0 (higher)
+      // Normal move is neutral vs Normal → offensiveScore = 1.0 (lower)
+      const normalEnemy: Pokemon = {
+        name: 'Snorlax',
+        types: [PokemonType.Normal],
+        stats: { hp: 160, attack: 110, defense: 65, spAtk: 65, spDef: 110, speed: 30 },
+      };
+      const highAtkMezatag: Mezatag = {
+        name: 'Geodude',
+        types: [PokemonType.Rock],
+        stats: { hp: 40, attack: 80, defense: 100, spAtk: 30, spDef: 30, speed: 20 },
+        move: { name: 'Rock Smash', type: PokemonType.Fighting },
+      };
+      const lowAtkMezatag: Mezatag = {
+        name: 'Onix',
+        types: [PokemonType.Rock],
+        stats: { hp: 35, attack: 45, defense: 160, spAtk: 30, spDef: 45, speed: 70 },
+        move: { name: 'Tackle', type: PokemonType.Normal },
+      };
+
+      const recommendations = getRecommendations(normalEnemy, [lowAtkMezatag, highAtkMezatag]);
+      const defenseList = recommendations.defense.recommendations;
+
+      // Both have equal defensiveScore; highAtkMezatag (Fighting move, off=2.0) should rank first
+      expect(defenseList[0].defensiveScore).toBe(defenseList[1].defensiveScore);
+      expect(defenseList[0].mezatag.name).toBe('Geodude');
+      expect(defenseList[1].mezatag.name).toBe('Onix');
+    });
+
+    it('should break balanced list ties using offensiveScore then defensiveScore', () => {
+      // Against a Rock enemy:
+      //   highAtkMezatag: Water move (off=2.0 vs Rock) + Normal type (def=1.0 vs Rock) → combined=1.5
+      //   lowAtkMezatag:  Psychic move (off=1.0 vs Rock) + Steel type (def=2.0 vs Rock) → combined=1.5
+      // Same combinedScore; highAtkMezatag has higher offensiveScore so it ranks first
+      const rockEnemy: Pokemon = {
+        name: 'Graveler',
+        types: [PokemonType.Rock],
+        stats: { hp: 55, attack: 95, defense: 115, spAtk: 45, spDef: 45, speed: 35 },
+      };
+      const highAtkMezatag: Mezatag = {
+        name: 'Vaporeon',
+        types: [PokemonType.Normal],
+        stats: { hp: 130, attack: 65, defense: 60, spAtk: 110, spDef: 95, speed: 65 },
+        move: { name: 'Water Gun', type: PokemonType.Water },
+      };
+      const highDefMezatag: Mezatag = {
+        name: 'Steelix',
+        types: [PokemonType.Steel],
+        stats: { hp: 75, attack: 85, defense: 200, spAtk: 55, spDef: 65, speed: 30 },
+        move: { name: 'Confusion', type: PokemonType.Psychic },
+      };
+
+      const recommendations = getRecommendations(rockEnemy, [highDefMezatag, highAtkMezatag]);
+      const balancedList = recommendations.balanced.recommendations;
+
+      // Both have equal combinedScore (1.5); highAtkMezatag (Water move, off=2.0) should rank first
+      expect(balancedList[0].combinedScore).toBe(balancedList[1].combinedScore);
+      expect(balancedList[0].mezatag.name).toBe('Vaporeon');
+      expect(balancedList[1].mezatag.name).toBe('Steelix');
+    });
   });
 });
