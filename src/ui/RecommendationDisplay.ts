@@ -236,9 +236,9 @@ export class RecommendationDisplay {
     `;
 
     const attackScore = document.createElement('span');
-    attackScore.textContent = `ATK: ${scored.offensiveScore.toFixed(0)}`;
+    attackScore.textContent = `ATK: ${scored.offensiveScore.toFixed(1)}x`;
     const defenseScore = document.createElement('span');
-    defenseScore.textContent = `DEF: ${scored.defensiveScore.toFixed(0)}`;
+    defenseScore.textContent = `DEF: ${scored.defensiveScore.toFixed(1)}x`;
 
     scores.appendChild(attackScore);
     scores.appendChild(defenseScore);

@@ -28,7 +28,7 @@ npx vitest run tests/domain/typeEffectiveness.spec.ts
 ### Running tests matching a pattern
 
 ```bash
-npx vitest run -t "should return 100 for super effective"
+npx vitest run -t "should return 2.0 for super effective"
 ```
 
 ### CI pipeline order
@@ -127,7 +127,7 @@ public/data/         # Copy of data/ for Vite static serving — keep in sync
 ### Error Handling
 
 - Guard clauses with early returns for edge cases (empty arrays, missing data)
-- Return sensible defaults: `50` for neutral scores, `[]` for empty results, `null` for missing data
+- Return sensible defaults: `1.0` for neutral scores, `[]` for empty results, `null` for missing data
 - `try/catch` with `console.error()` + rethrow for critical failures
 - `console.warn()` + fallback value for non-critical failures
 - Philosophy: "continue with partial data" — skip bad entries, proceed with what works

@@ -3,6 +3,7 @@
  * Calculates offensive and defensive effectiveness between Pokemon types
  * Uses numeric multiplier data (attacker → defender → multiplier)
  * Dual-type effectiveness is computed at runtime by multiplying individual type multipliers
+ * Scores are expressed as raw floating-point multipliers (no 0-100 mapping)
  */
 
 import { PokemonType } from './models';
@@ -13,6 +14,9 @@ import typeMatchupsData from '../../data/type-matchups.json';
  * Missing entries imply a 1.0 (neutral) multiplier.
  */
 type TypeMatchups = Record<string, Record<string, number>>;
+
+/** Maximum defensive score cap — mirrors the maximum offensive multiplier (4x) */
+const DEFENSIVE_SCORE_CAP = 4.0;
 
 /**
  * Get type matchups data (uses imported JSON)
@@ -49,60 +53,26 @@ function getCombinedMultiplier(
 }
 
 /**
- * Convert a damage multiplier to an offensive score (0-100).
- * Higher multiplier = higher score (more effective attack).
- *
- * Mapping:
- *   0x    →   0  (immune)
- *   0.25x →  12.5
- *   0.5x  →  25  (not very effective)
- *   1x    →  50  (neutral)
- *   2x    → 100  (super effective)
- *   4x    → 100  (capped)
- *
- * Formula: clamp(0, 100, multiplier * 50), with 0 → 0
- */
-function multiplierToOffensiveScore(multiplier: number): number {
-  if (multiplier === 0) return 0;
-  return Math.min(100, Math.max(0, multiplier * 50));
-}
-
-/**
- * Convert a damage multiplier to a defensive score (0-100).
- * Lower multiplier = higher score (better defense / more resistance).
- *
- * Mapping:
- *   0x    → 100  (immune)
- *   0.25x → 100  (double resist)
- *   0.5x  →  75  (resists)
- *   1x    →  50  (neutral)
- *   2x    →  25  (weak)
- *   4x    →   0  (double weak)
- *
- * Formula: clamp(0, 100, 50 - 25 * log2(multiplier)), with 0 → 100
- */
-function multiplierToDefensiveScore(multiplier: number): number {
-  if (multiplier === 0) return 100;
-  return Math.min(100, Math.max(0, 50 - 25 * Math.log2(multiplier)));
-}
-
-/**
- * Calculate offensive effectiveness score
- * How effective a move of moveType is against defendingTypes
+ * Calculate offensive effectiveness score as a raw damage multiplier.
+ * How effective a move of moveType is against defendingTypes.
  * For dual-type Pokemon, multipliers are multiplied together at runtime.
- * Returns a score 0-100
- * - 0: Immune (no effect)
- * - 12.5: Double not very effective (0.25x)
- * - 25: Not very effective (0.5x)
- * - 50: Normal effectiveness (1x)
- * - 100: Super effective (2x or higher)
+ * Returns the raw combined multiplier:
+ *
+ *   0.0  — immune (no effect)
+ *   0.25 — double not very effective
+ *   0.5  — not very effective
+ *   1.0  — neutral
+ *   2.0  — super effective
+ *   4.0  — double super effective
+ *
+ * Returns 1.0 (neutral) for unknown or missing types.
  */
 export function getOffensiveScore(
   moveType: PokemonType | string,
   defendingTypes: (PokemonType | string)[]
 ): number {
   if (defendingTypes.length === 0) {
-    return 50; // Neutral if no types
+    return 1.0; // Neutral if no types
   }
 
   const matchups = getTypeMatchups();
@@ -110,42 +80,45 @@ export function getOffensiveScore(
 
   // Check if the attacking type exists in our data
   if (!matchups[typeStr]) {
-    return 50; // Neutral if type not found
+    return 1.0; // Neutral if type not found
   }
 
   const defendingStrs = defendingTypes.map((t) => t.toString());
-  const multiplier = getCombinedMultiplier(typeStr, defendingStrs, matchups);
-  return multiplierToOffensiveScore(multiplier);
+  return getCombinedMultiplier(typeStr, defendingStrs, matchups);
 }
 
 /**
- * Calculate defensive effectiveness score
- * How well defendingTypes resist attacks of attackingTypes
+ * Calculate defensive effectiveness score as the inverse damage multiplier (1 / damage taken).
+ * How well defendingTypes resist attacks of attackingTypes.
  * For dual-type defenders, multipliers are multiplied together at runtime.
- * Returns a score 0-100
- * - 0: Double weak (takes 4x damage)
- * - 25: Weak (takes 2x damage)
- * - 50: Normal (takes 1x damage)
- * - 75: Resists (takes 0.5x damage)
- * - 100: Immune or double resist (takes 0x or 0.25x damage)
+ * Returns the average of per-attacker inverse multipliers:
+ *
+ *   4.0  — immune or double resist (0x or 0.25x damage; capped at DEFENSIVE_SCORE_CAP)
+ *   2.0  — resists (takes 0.5x damage)
+ *   1.0  — neutral (takes 1x damage)
+ *   0.5  — weak (takes 2x damage)
+ *   0.25 — double weak (takes 4x damage)
+ *
+ * Higher = better defense. Returns 1.0 (neutral) for unknown or missing types.
  */
 export function getDefensiveScore(
   defendingTypes: (PokemonType | string)[],
   attackingTypes: (PokemonType | string)[]
 ): number {
   if (defendingTypes.length === 0 || attackingTypes.length === 0) {
-    return 50; // Neutral if no types
+    return 1.0; // Neutral if no types
   }
 
   const matchups = getTypeMatchups();
   const defendingStrs = defendingTypes.map((t) => t.toString());
 
-  // For each attacking type, compute the combined multiplier against all defending types
-  // then convert to a defensive score, and average across all attacking types
+  // For each attacking type, compute 1/multiplier (capped at DEFENSIVE_SCORE_CAP for immunity)
+  // then average across all attacking types
   const defenseScores = attackingTypes.map((atkType) => {
     const attackingStr = atkType.toString();
     const multiplier = getCombinedMultiplier(attackingStr, defendingStrs, matchups);
-    return multiplierToDefensiveScore(multiplier);
+    if (multiplier === 0) return DEFENSIVE_SCORE_CAP; // immune
+    return Math.min(DEFENSIVE_SCORE_CAP, 1 / multiplier);
   });
 
   return defenseScores.reduce((a, b) => a + b, 0) / defenseScores.length;

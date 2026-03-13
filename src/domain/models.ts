@@ -78,9 +78,9 @@ export enum RecommendationType {
  */
 export interface ScoredMezatag {
   mezatag: Mezatag;
-  offensiveScore: number; // 0-100
-  defensiveScore: number; // 0-100
-  combinedScore: number; // 0-100
+  offensiveScore: number; // 0.0-4.0 raw damage multiplier (higher = more effective attack)
+  defensiveScore: number; // 0.25-4.0 inverse multiplier 1/damage (higher = better defense); 4.0 = immune/double resist cap
+  combinedScore: number; // average of offensiveScore and defensiveScore
 }
 
 /**
