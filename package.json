@@ -11,7 +11,8 @@
     "test:coverage": "vitest --coverage",
     "lint": "eslint src tests --ext .ts",
     "format": "prettier --write src tests",
-    "crawl": "node --loader ts-node/esm scripts/crawl-mezatag.ts"
+    "crawl": "node --loader ts-node/esm scripts/crawl-mezatag.ts",
+    "append-set3": "node --loader ts-node/esm scripts/append-set3.ts"
   },
   "repository": {
     "type": "git",
