@@ -92,3 +92,48 @@ export interface Recommendation {
   enemyPokemon: Pokemon;
   recommendations: ScoredMezatag[];
 }
+
+/**
+ * Per-trainer survival info for a single trainer Pokemon that a slot is exposed to.
+ * defensiveScore is the inverse-multiplier of our Mezatag's types against the trainer's move type.
+ * trainerPokemon is a Mezatag so that the trainer's move type is always accessible.
+ */
+export interface SlotSurvivalInfo {
+  trainerPokemon: Mezatag;
+  defensiveScore: number; // >= 1.0 means neutral or better; < 1.0 means at risk
+  canSurvive: boolean; // defensiveScore >= 1.0
+}
+
+/**
+ * A single ranked candidate within a slot's top-3 recommendations.
+ */
+export interface SlotRecommendation {
+  rank: number; // 1 = best, 2 = second best, 3 = third best
+  mezatag: Mezatag;
+  offensiveScore: number; // move type effectiveness vs trainerOpponent
+  survivalInfo: SlotSurvivalInfo[]; // survival flags for each trainer Pokemon this slot is exposed to
+  speedWarning: boolean; // true if this Mezatag speed < trainerOpponent speed
+  noEligibleCandidate: boolean; // true if no eligible candidate met the defensive filter (fallback used)
+}
+
+/**
+ * One slot in a trainer battle team recommendation.
+ * Each slot provides top 3 ranked Mezatag candidates for the player to choose from.
+ * trainerOpponent is a Mezatag so the trainer's move type is accessible for scoring.
+ */
+export interface TrainerBattleSlot {
+  slotIndex: number; // 1–4
+  isReserve: boolean; // true for slot 4 (enters after slot 2 is KO'd)
+  isSacrifice: boolean; // true for slot 2 (intentionally KO'd by trainer AoE)
+  trainerOpponent: Mezatag; // primary trainer Pokemon this slot targets
+  recommendations: SlotRecommendation[]; // top 3 candidates, rank 1 is primary
+}
+
+/**
+ * Full trainer battle team recommendation for a 4-Pokemon trainer sequence.
+ * totalEnergy is based on the rank-1 (primary) pick for each slot.
+ */
+export interface TrainerBattleResult {
+  slots: TrainerBattleSlot[]; // exactly 4, in slot order (index 0 = slot 1)
+  totalEnergy: number; // sum of rank-1 Mezatag energies across all 4 slots
+}
