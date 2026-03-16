@@ -17,6 +17,7 @@ npx vitest run         # Run all tests once (no watch)
 npm run test:coverage  # Tests with v8 coverage (80% threshold)
 npm run lint           # ESLint on src/ and tests/
 npm run format         # Prettier write on src/ and tests/
+npm run crawl          # Run Mezatag crawler script (ts-node)
 ```
 
 ### Running a single test file
@@ -42,15 +43,18 @@ npm ci && npm run test && npm run build
 ```
 src/
 ├── adapters/        # External data sources (Adapter pattern required by PRD)
+│   └── bulbapediaAdapter.ts
 ├── domain/          # Pure business logic — no DOM, no side effects
-│   ├── models.ts    # All shared interfaces and enums (single source of truth)
+│   ├── models.ts              # All shared interfaces and enums (single source of truth)
 │   ├── typeEffectiveness.ts
 │   ├── pokemonSearch.ts
-│   └── recommendationEngine.ts
+│   ├── recommendationEngine.ts
+│   └── trainerBattleEngine.ts
 ├── ui/              # Vanilla TS class-based UI components
 │   ├── App.ts
 │   ├── SearchComponent.ts
-│   └── RecommendationDisplay.ts
+│   ├── RecommendationDisplay.ts
+│   └── TrainerBattleComponent.ts
 ├── index.ts         # Entry point
 └── styles.css       # MD3 Forest theme variables and resets
 
@@ -58,19 +62,24 @@ tests/               # Mirrors src/ structure
 ├── domain/          # Unit tests for domain logic
 ├── setup.ts         # Global test setup (clears mocks after each test)
 └── adapters/, integration/, ui/, utils/  # Scaffolded, currently empty
+
 data/                # Static data files committed to repo
 ├── type-matchups.json   # Numeric multiplier type chart (18 single types)
-└── mezatags.json        # Crawled Mezatag data
+├── mezatags.json        # Crawled Mezatag data
+└── SOURCES.md           # Tracks which Bulbapedia set pages have been crawled
 
 public/data/         # Copy of data/ for Vite static serving — keep in sync
 ```
 
 **Dependency chain**: `data/*.json` → `domain/typeEffectiveness.ts` →
-`domain/recommendationEngine.ts` → `ui/App.ts` → `ui/RecommendationDisplay.ts`
+`domain/recommendationEngine.ts` / `domain/trainerBattleEngine.ts` →
+`ui/App.ts` → `ui/RecommendationDisplay.ts` / `ui/TrainerBattleComponent.ts`
 
 ## TypeScript & Formatting
 
-- **Strict mode**: `strict: true` plus all individual strict flags enabled
+- **Strict mode**: `strict: true` plus all individual strict flags enabled:
+  `noImplicitAny`, `strictNullChecks`, `strictFunctionTypes`, `noUnusedLocals`,
+  `noUnusedParameters`, `noImplicitReturns`, `noFallthroughCasesInSwitch`
 - **Target**: ES2020, **Module**: ESNext, bundler resolution
 - **resolveJsonModule**: true — JSON imported directly into TS
 - **Path aliases** (`@/*`, `@tests/*`) exist in tsconfig but are **not used** —
@@ -153,7 +162,9 @@ public/data/         # Copy of data/ for Vite static serving — keep in sync
   Missing entries imply 1.0 (neutral). Immunities stored as 0.0.
   Only 18 single base types — dual-type effectiveness computed at runtime.
 - `data/mezatags.json`: Crawled Mezatag data with names, types, stats, moves.
-- **Always keep `public/data/` in sync** with `data/` after changes.
+- `data/SOURCES.md`: Tracks which Bulbapedia set pages have been crawled.
+  Update this file whenever new sets are added to `mezatags.json`.
+- **Always keep `public/data/` in sync** with `data/` after any changes to JSON files.
 
 ## Key Design Decisions
 
@@ -162,3 +173,8 @@ public/data/         # Copy of data/ for Vite static serving — keep in sync
 - Dual-type effectiveness is **computed at runtime** by multiplying individual type multipliers
 - Pokemon with missing data should be **filtered out**, not cause errors
 - Mobile UI uses **collapsible sections** for long lists
+- `Pokemon` interface has no `move` field — only `Mezatag` does. Trainer sequences
+  must use `Mezatag[]` throughout, never `Pokemon[]`
+- Trainer battle engine uses **greedy assignment** (Slot 3 → 1 → 4 → 2) and returns
+  **top-3 ranked candidates per slot**; only rank-1 is removed from the pool
+- Ties in all recommendation lists are broken by `energy` ascending (lower = preferred)
