@@ -1,5 +1,10 @@
-/* Material Design 3 CSS can be imported from CDN if needed */
-/* @import '@material/web/all'; */
+/**
+ * Global styles — MD3 Forest theme CSS variables and base resets.
+ * Tailwind utility classes handle layout; these variables are consumed
+ * by both Tailwind theme mappings and any remaining inline styles.
+ */
+
+@import 'tailwindcss';
 
 :root {
   /* Forest Green Color Scheme - Material Design 3 */
@@ -35,9 +40,9 @@
   --md-sys-color-on-background: #1c1c1b;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -51,49 +56,6 @@ body {
     sans-serif;
   background-color: var(--md-sys-color-background);
   color: var(--md-sys-color-on-background);
-  height: 100%;
-}
-
-#app {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
-}
-
-/* Utility Classes */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
-
-.grid {
-  display: grid;
-  gap: 16px;
-}
-
-.grid-2 {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.grid-3 {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-/* Responsive Typography */
-@media (max-width: 768px) {
-  :root {
-    font-size: 14px;
-  }
-
-  .grid-3 {
-    grid-template-columns: 1fr;
-  }
-
-  .container {
-    padding: 0 12px;
-  }
 }
 
 /* Scrollbar Styling */
@@ -113,23 +75,4 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--md-sys-color-secondary);
-}
-
-/* Mobile Layout */
-@media (max-width: 767px) {
-  .main-content {
-    flex-direction: column;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-
-  .left-panel {
-    flex: 0 0 auto !important;
-    width: 100% !important;
-  }
-
-  .right-panel {
-    flex: 1 1 auto !important;
-    min-height: 50vh;
-  }
 }

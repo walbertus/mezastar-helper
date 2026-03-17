@@ -15,24 +15,28 @@ const mockMezatags: Mezatag[] = [
   {
     name: 'Pikachu',
     types: [PokemonType.Electric],
+    energy: 100,
     stats: { hp: 35, attack: 55, defense: 40, spAtk: 50, spDef: 50, speed: 90 },
     move: { name: 'Thunderbolt', type: PokemonType.Electric },
   },
   {
     name: 'Charizard',
     types: [PokemonType.Fire, PokemonType.Flying],
+    energy: 120,
     stats: { hp: 78, attack: 84, defense: 78, spAtk: 109, spDef: 85, speed: 100 },
     move: { name: 'Flamethrower', type: PokemonType.Fire },
   },
   {
     name: 'Pikachu', // Duplicate name with different move
     types: [PokemonType.Electric],
+    energy: 100,
     stats: { hp: 35, attack: 55, defense: 40, spAtk: 50, spDef: 50, speed: 90 },
     move: { name: 'Thunder Wave', type: PokemonType.Electric },
   },
   {
     name: 'Blastoise',
     types: [PokemonType.Water],
+    energy: 110,
     stats: { hp: 79, attack: 83, defense: 100, spAtk: 83, spDef: 83, speed: 78 },
     move: { name: 'Hydro Cannon', type: PokemonType.Water },
   },
