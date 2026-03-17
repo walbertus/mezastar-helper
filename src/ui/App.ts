@@ -121,10 +121,11 @@ export class App {
 
     // ---- Main content ----
     const main = document.createElement('main');
+    main.className = 'main-content';
     main.style.cssText = `
       display: flex;
       flex: 1;
-      overflow: hidden;
+      overflow: auto;
       gap: 16px;
       padding: 16px;
     `;
@@ -151,10 +152,6 @@ export class App {
 
     main.appendChild(this.singleBattlePanel);
     main.appendChild(this.trainerBattlePanel);
-
-    if (window.innerWidth < 768) {
-      main.style.flexDirection = 'column';
-    }
 
     this.container.appendChild(header);
     this.container.appendChild(main);
@@ -201,6 +198,7 @@ export class App {
   private buildSingleBattlePanel(panel: HTMLElement): void {
     // Left panel: Search
     const leftPanel = document.createElement('div');
+    leftPanel.className = 'left-panel';
     leftPanel.style.cssText = `
       flex: 0 0 300px;
       background-color: var(--md-sys-color-surface);
@@ -234,6 +232,7 @@ export class App {
 
     // Right panel: Recommendations
     const rightPanel = document.createElement('div');
+    rightPanel.className = 'right-panel';
     rightPanel.style.cssText = `
       flex: 1;
       background-color: var(--md-sys-color-surface);
@@ -268,6 +267,7 @@ export class App {
   private buildTrainerBattlePanel(panel: HTMLElement): void {
     // Left panel: trainer inputs
     const leftPanel = document.createElement('div');
+    leftPanel.className = 'left-panel';
     leftPanel.style.cssText = `
       flex: 0 0 360px;
       background-color: var(--md-sys-color-surface);
@@ -292,6 +292,7 @@ export class App {
 
     // Right panel: results
     const rightPanel = document.createElement('div');
+    rightPanel.className = 'right-panel';
     rightPanel.style.cssText = `
       flex: 1;
       background-color: var(--md-sys-color-surface);

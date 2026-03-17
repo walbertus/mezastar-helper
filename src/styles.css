@@ -114,3 +114,22 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--md-sys-color-secondary);
 }
+
+/* Mobile Layout */
+@media (max-width: 767px) {
+  .main-content {
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .left-panel {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+
+  .right-panel {
+    flex: 1 1 auto !important;
+    min-height: 50vh;
+  }
+}
