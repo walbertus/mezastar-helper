@@ -7,20 +7,16 @@ Tracks which Bulbapedia Mezastar set pages have been crawled into `mezatags.json
 - https://bulbapedia.bulbagarden.net/wiki/Set_1_(Mezastar)
 - https://bulbapedia.bulbagarden.net/wiki/Set_2_(Mezastar)
 - https://bulbapedia.bulbagarden.net/wiki/Set_3_(Mezastar)
+- https://bulbapedia.bulbagarden.net/wiki/Set_4_(Mezastar)
+- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_1_(Mezastar)
+- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_2_(Mezastar)
+- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_4_(Mezastar)
+- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_3_(Mezastar)
+- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_5_(Mezastar)
 
 ## Not yet crawled
 
-### Original series
-
-- https://bulbapedia.bulbagarden.net/wiki/Set_4_(Mezastar)
-
 ### Super Tag series
-
-- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_1_(Mezastar)
-- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_2_(Mezastar)
-- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_3_(Mezastar)
-- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_4_(Mezastar)
-- https://bulbapedia.bulbagarden.net/wiki/Super_Tag_set_5_(Mezastar)
 
 ### Double Chain series
 
