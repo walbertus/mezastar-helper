@@ -22,12 +22,9 @@ Tracks which Bulbapedia Mezastar set pages have been crawled into `mezatags.json
 - https://bulbapedia.bulbagarden.net/wiki/Gorgeous_Star_set_2_(Mezastar)
 - https://bulbapedia.bulbagarden.net/wiki/Gorgeous_Star_set_3_(Mezastar)
 - https://bulbapedia.bulbagarden.net/wiki/Gorgeous_Star_set_4_(Mezastar)
+- https://bulbapedia.bulbagarden.net/wiki/Gorgeous_Star_set_5_(Mezastar)
 
 ## Not yet crawled
-
-### Gorgeous Star series
-
-- https://bulbapedia.bulbagarden.net/wiki/Gorgeous_Star_set_5_(Mezastar)
 
 ### Promotional tags
 
