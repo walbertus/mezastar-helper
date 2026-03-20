@@ -18598,5 +18598,1445 @@
       "type": "Fighting"
     },
     "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/4/48/Falinks_3-4-070.png/150px-Falinks_3-4-070.png"
+  },
+  {
+    "name": "Rayquaza",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "energy": 212,
+    "stats": {
+      "hp": 227,
+      "attack": 215,
+      "defense": 131,
+      "spAtk": 215,
+      "spDef": 131,
+      "speed": 138
+    },
+    "move": {
+      "name": "Draco Meteor",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/6c/Rayquaza_3-5-001.png/250px-Rayquaza_3-5-001.png"
+  },
+  {
+    "name": "Deoxys",
+    "types": [
+      "Psychic"
+    ],
+    "energy": 190,
+    "stats": {
+      "hp": 150,
+      "attack": 215,
+      "defense": 75,
+      "spAtk": 215,
+      "spDef": 75,
+      "speed": 215
+    },
+    "move": {
+      "name": "Psycho Boost",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/67/Deoxys_3-5-002.png/250px-Deoxys_3-5-002.png"
+  },
+  {
+    "name": "Giratina",
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "energy": 212,
+    "stats": {
+      "hp": 290,
+      "attack": 145,
+      "defense": 173,
+      "spAtk": 145,
+      "spDef": 173,
+      "speed": 131
+    },
+    "move": {
+      "name": "Shadow Claw",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/b/b2/Giratina_3-5-003.png/250px-Giratina_3-5-003.png"
+  },
+  {
+    "name": "Giratina",
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "energy": 212,
+    "stats": {
+      "hp": 290,
+      "attack": 173,
+      "defense": 145,
+      "spAtk": 173,
+      "spDef": 145,
+      "speed": 131
+    },
+    "move": {
+      "name": "Shadow Force",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/5/56/Giratina_3-5-004.png/250px-Giratina_3-5-004.png"
+  },
+  {
+    "name": "Lapras",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "energy": 166,
+    "stats": {
+      "hp": 254,
+      "attack": 120,
+      "defense": 113,
+      "spAtk": 120,
+      "spDef": 134,
+      "speed": 86
+    },
+    "move": {
+      "name": "Ice Beam",
+      "type": "Ice"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/d1/Lapras_3-5-005.png/250px-Lapras_3-5-005.png"
+  },
+  {
+    "name": "Grimmsnarl",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "energy": 160,
+    "stats": {
+      "hp": 207,
+      "attack": 168,
+      "defense": 93,
+      "spAtk": 134,
+      "spDef": 107,
+      "speed": 86
+    },
+    "move": {
+      "name": "Crunch",
+      "type": "Dark"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/22/Grimmsnarl_3-5-006.png/250px-Grimmsnarl_3-5-006.png"
+  },
+  {
+    "name": "Galarian Articuno",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "energy": 178,
+    "stats": {
+      "hp": 200,
+      "attack": 120,
+      "defense": 120,
+      "spAtk": 175,
+      "spDef": 141,
+      "speed": 134
+    },
+    "move": {
+      "name": "Freezing Glare",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/94/Galarian_Articuno_3-5-007.png/250px-Galarian_Articuno_3-5-007.png"
+  },
+  {
+    "name": "Galarian Zapdos",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "energy": 178,
+    "stats": {
+      "hp": 200,
+      "attack": 175,
+      "defense": 127,
+      "spAtk": 120,
+      "spDef": 127,
+      "speed": 141
+    },
+    "move": {
+      "name": "Thunderous Kick",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Galarian_Zapdos_3-5-008.png/250px-Galarian_Zapdos_3-5-008.png"
+  },
+  {
+    "name": "Galarian Moltres",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "energy": 178,
+    "stats": {
+      "hp": 200,
+      "attack": 120,
+      "defense": 127,
+      "spAtk": 141,
+      "spDef": 175,
+      "speed": 127
+    },
+    "move": {
+      "name": "Fiery Wrath",
+      "type": "Dark"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/8/81/Galarian_Moltres_3-5-009.png/250px-Galarian_Moltres_3-5-009.png"
+  },
+  {
+    "name": "Hisuian Goodra",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "energy": 184,
+    "stats": {
+      "hp": 186,
+      "attack": 141,
+      "defense": 141,
+      "spAtk": 154,
+      "spDef": 209,
+      "speed": 86
+    },
+    "move": {
+      "name": "Iron Tail",
+      "type": "Steel"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Hisuian_Goodra_3-5-010.png/250px-Hisuian_Goodra_3-5-010.png"
+  },
+  {
+    "name": "Cobalion",
+    "types": [
+      "Steel",
+      "Fighting"
+    ],
+    "energy": 162,
+    "stats": {
+      "hp": 184,
+      "attack": 116,
+      "defense": 164,
+      "spAtk": 116,
+      "spDef": 94,
+      "speed": 138
+    },
+    "move": {
+      "name": "Iron Head",
+      "type": "Steel"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/37/Cobalion_3-5-011.png/250px-Cobalion_3-5-011.png"
+  },
+  {
+    "name": "Terrakion",
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "energy": 162,
+    "stats": {
+      "hp": 184,
+      "attack": 164,
+      "defense": 116,
+      "spAtk": 94,
+      "spDef": 116,
+      "speed": 138
+    },
+    "move": {
+      "name": "Stone Edge",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/ac/Terrakion_3-5-012.png/250px-Terrakion_3-5-012.png"
+  },
+  {
+    "name": "Virizion",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "energy": 162,
+    "stats": {
+      "hp": 184,
+      "attack": 116,
+      "defense": 94,
+      "spAtk": 116,
+      "spDef": 164,
+      "speed": 138
+    },
+    "move": {
+      "name": "Leaf Blade",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/9a/Virizion_3-5-013.png/250px-Virizion_3-5-013.png"
+  },
+  {
+    "name": "Enamorus",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "energy": 162,
+    "stats": {
+      "hp": 163,
+      "attack": 147,
+      "defense": 141,
+      "spAtk": 172,
+      "spDef": 129,
+      "speed": 62
+    },
+    "move": {
+      "name": "Springtide Storm",
+      "type": "Fairy"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/4/47/Enamorus_3-5-014.png/250px-Enamorus_3-5-014.png"
+  },
+  {
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "energy": 142,
+    "stats": {
+      "hp": 140,
+      "attack": 67,
+      "defense": 60,
+      "spAtk": 172,
+      "spDef": 122,
+      "speed": 153
+    },
+    "move": {
+      "name": "Psychic",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/6a/Alakazam_3-5-015.png/250px-Alakazam_3-5-015.png"
+  },
+  {
+    "name": "Lycanroc",
+    "types": [
+      "Rock"
+    ],
+    "energy": 140,
+    "stats": {
+      "hp": 165,
+      "attack": 147,
+      "defense": 85,
+      "spAtk": 73,
+      "spDef": 85,
+      "speed": 143
+    },
+    "move": {
+      "name": "Stone Edge",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/10/Lycanroc_3-5-016.png/250px-Lycanroc_3-5-016.png"
+  },
+  {
+    "name": "Lycanroc",
+    "types": [
+      "Rock"
+    ],
+    "energy": 140,
+    "stats": {
+      "hp": 177,
+      "attack": 147,
+      "defense": 98,
+      "spAtk": 73,
+      "spDef": 98,
+      "speed": 106
+    },
+    "move": {
+      "name": "Stone Edge",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/5/55/Lycanroc_3-5-017.png/250px-Lycanroc_3-5-017.png"
+  },
+  {
+    "name": "Torterra",
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "energy": 152,
+    "stats": {
+      "hp": 189,
+      "attack": 140,
+      "defense": 135,
+      "spAtk": 98,
+      "spDef": 110,
+      "speed": 74
+    },
+    "move": {
+      "name": "Leaf Storm",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/0/07/Torterra_3-5-018.png/150px-Torterra_3-5-018.png"
+  },
+  {
+    "name": "Infernape",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "energy": 152,
+    "stats": {
+      "hp": 166,
+      "attack": 133,
+      "defense": 93,
+      "spAtk": 133,
+      "spDef": 93,
+      "speed": 138
+    },
+    "move": {
+      "name": "Close Combat",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/5/5d/Infernape_3-5-019.png/150px-Infernape_3-5-019.png"
+  },
+  {
+    "name": "Empoleon",
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "energy": 152,
+    "stats": {
+      "hp": 176,
+      "attack": 111,
+      "defense": 114,
+      "spAtk": 142,
+      "spDef": 130,
+      "speed": 79
+    },
+    "move": {
+      "name": "Hydro Pump",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/f4/Empoleon_3-5-020.png/150px-Empoleon_3-5-020.png"
+  },
+  {
+    "name": "Dragapult",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "energy": 168,
+    "stats": {
+      "hp": 181,
+      "attack": 153,
+      "defense": 98,
+      "spAtk": 129,
+      "spDef": 98,
+      "speed": 181
+    },
+    "move": {
+      "name": "Dragon Darts",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/1f/Dragapult_3-5-021.png/250px-Dragapult_3-5-021.png"
+  },
+  {
+    "name": "Wigglytuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "energy": 132,
+    "stats": {
+      "hp": 257,
+      "attack": 96,
+      "defense": 63,
+      "spAtk": 115,
+      "spDef": 70,
+      "speed": 63
+    },
+    "move": {
+      "name": "Play Rough",
+      "type": "Fairy"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/9e/Wigglytuff_3-5-022.png/250px-Wigglytuff_3-5-022.png"
+  },
+  {
+    "name": "Walrein",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "energy": 150,
+    "stats": {
+      "hp": 208,
+      "attack": 104,
+      "defense": 116,
+      "spAtk": 122,
+      "spDef": 116,
+      "speed": 85
+    },
+    "move": {
+      "name": "Blizzard",
+      "type": "Ice"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/Walrein_3-5-023.png/250px-Walrein_3-5-023.png"
+  },
+  {
+    "name": "Tsareena",
+    "types": [
+      "Grass"
+    ],
+    "energy": 146,
+    "stats": {
+      "hp": 161,
+      "attack": 153,
+      "defense": 126,
+      "spAtk": 67,
+      "spDef": 126,
+      "speed": 94
+    },
+    "move": {
+      "name": "Trop Kick",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/0/03/Tsareena_3-5-024.png/250px-Tsareena_3-5-024.png"
+  },
+  {
+    "name": "Basculegion",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "energy": 150,
+    "stats": {
+      "hp": 220,
+      "attack": 143,
+      "defense": 85,
+      "spAtk": 104,
+      "spDef": 98,
+      "speed": 101
+    },
+    "move": {
+      "name": "Aqua Tail",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Basculegion_3-5-025.png/250px-Basculegion_3-5-025.png"
+  },
+  {
+    "name": "Turtwig",
+    "types": [
+      "Grass"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 66,
+      "attack": 41,
+      "defense": 39,
+      "spAtk": 29,
+      "spDef": 34,
+      "speed": 21
+    },
+    "move": {
+      "name": "Leafage",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/a2/Turtwig_3-5-026.png/150px-Turtwig_3-5-026.png"
+  },
+  {
+    "name": "Grotle",
+    "types": [
+      "Grass"
+    ],
+    "energy": 88,
+    "stats": {
+      "hp": 122,
+      "attack": 85,
+      "defense": 81,
+      "spAtk": 54,
+      "spDef": 63,
+      "speed": 37
+    },
+    "move": {
+      "name": "Razor Leaf",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/69/Grotle_3-5-027.png/150px-Grotle_3-5-027.png"
+  },
+  {
+    "name": "Torterra",
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "energy": 124,
+    "stats": {
+      "hp": 157,
+      "attack": 116,
+      "defense": 112,
+      "spAtk": 81,
+      "spDef": 91,
+      "speed": 62
+    },
+    "move": {
+      "name": "Giga Drain",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/36/Torterra_3-5-028.png/150px-Torterra_3-5-028.png"
+  },
+  {
+    "name": "Chimchar",
+    "types": [
+      "Fire"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 60,
+      "attack": 36,
+      "defense": 28,
+      "spAtk": 36,
+      "spDef": 28,
+      "speed": 37
+    },
+    "move": {
+      "name": "Ember",
+      "type": "Fire"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/dc/Chimchar_3-5-029.png/150px-Chimchar_3-5-029.png"
+  },
+  {
+    "name": "Monferno",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "energy": 88,
+    "stats": {
+      "hp": 112,
+      "attack": 75,
+      "defense": 51,
+      "spAtk": 75,
+      "spDef": 51,
+      "speed": 77
+    },
+    "move": {
+      "name": "Flame Wheel",
+      "type": "Fire"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/7/7d/Monferno_3-5-030.png/150px-Monferno_3-5-030.png"
+  },
+  {
+    "name": "Infernape",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "energy": 124,
+    "stats": {
+      "hp": 138,
+      "attack": 111,
+      "defense": 77,
+      "spAtk": 111,
+      "spDef": 77,
+      "speed": 115
+    },
+    "move": {
+      "name": "Brick Break",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/2f/Infernape_3-5-031.png/150px-Infernape_3-5-031.png"
+  },
+  {
+    "name": "Piplup",
+    "types": [
+      "Water"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 65,
+      "attack": 32,
+      "defense": 33,
+      "spAtk": 37,
+      "spDef": 35,
+      "speed": 26
+    },
+    "move": {
+      "name": "Bubble",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/d6/Piplup_3-5-032.png/150px-Piplup_3-5-032.png"
+  },
+  {
+    "name": "Prinplup",
+    "types": [
+      "Water"
+    ],
+    "energy": 88,
+    "stats": {
+      "hp": 112,
+      "attack": 64,
+      "defense": 66,
+      "spAtk": 77,
+      "spDef": 73,
+      "speed": 50
+    },
+    "move": {
+      "name": "Bubble Beam",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/b/bb/Prinplup_3-5-033.png/150px-Prinplup_3-5-033.png"
+  },
+  {
+    "name": "Empoleon",
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "energy": 124,
+    "stats": {
+      "hp": 146,
+      "attack": 92,
+      "defense": 94,
+      "spAtk": 118,
+      "spDef": 108,
+      "speed": 66
+    },
+    "move": {
+      "name": "Steel Wing",
+      "type": "Steel"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/7/78/Empoleon_3-5-034.png/150px-Empoleon_3-5-034.png"
+  },
+  {
+    "name": "Impidimp",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "energy": 40,
+    "stats": {
+      "hp": 61,
+      "attack": 29,
+      "defense": 21,
+      "spAtk": 34,
+      "spDef": 26,
+      "speed": 32
+    },
+    "move": {
+      "name": "Fake Out",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/f1/Impidimp_3-5-035.png/150px-Impidimp_3-5-035.png"
+  },
+  {
+    "name": "Morgrem",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "energy": 82,
+    "stats": {
+      "hp": 113,
+      "attack": 59,
+      "defense": 45,
+      "spAtk": 72,
+      "spDef": 54,
+      "speed": 68
+    },
+    "move": {
+      "name": "Assurance",
+      "type": "Dark"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/10/Morgrem_3-5-036.png/150px-Morgrem_3-5-036.png"
+  },
+  {
+    "name": "Grimmsnarl",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "energy": 120,
+    "stats": {
+      "hp": 157,
+      "attack": 127,
+      "defense": 71,
+      "spAtk": 101,
+      "spDef": 81,
+      "speed": 66
+    },
+    "move": {
+      "name": "Sucker Punch",
+      "type": "Dark"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/62/Grimmsnarl_3-5-037.png/150px-Grimmsnarl_3-5-037.png"
+  },
+  {
+    "name": "Goomy",
+    "types": [
+      "Dragon"
+    ],
+    "energy": 44,
+    "stats": {
+      "hp": 61,
+      "attack": 32,
+      "defense": 23,
+      "spAtk": 34,
+      "spDef": 45,
+      "speed": 26
+    },
+    "move": {
+      "name": "Water Gun",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/4/47/Goomy_3-5-038.png/150px-Goomy_3-5-038.png"
+  },
+  {
+    "name": "Hisuian Sliggoo",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "energy": 96,
+    "stats": {
+      "hp": 107,
+      "attack": 72,
+      "defense": 79,
+      "spAtk": 79,
+      "spDef": 106,
+      "speed": 41
+    },
+    "move": {
+      "name": "Dragon Breath",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/ac/Hisuian_Sliggoo_3-5-039.png/150px-Hisuian_Sliggoo_3-5-039.png"
+  },
+  {
+    "name": "Hisuian Goodra",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "energy": 140,
+    "stats": {
+      "hp": 142,
+      "attack": 107,
+      "defense": 107,
+      "spAtk": 117,
+      "spDef": 158,
+      "speed": 66
+    },
+    "move": {
+      "name": "Dragon Pulse",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/60/Hisuian_Goodra_3-5-040.png/150px-Hisuian_Goodra_3-5-040.png"
+  },
+  {
+    "name": "Abra",
+    "types": [
+      "Psychic"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 50,
+      "attack": 15,
+      "defense": 13,
+      "spAtk": 61,
+      "spDef": 34,
+      "speed": 53
+    },
+    "move": {
+      "name": "Swift",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/d7/Abra_3-5-041.png/150px-Abra_3-5-041.png"
+  },
+  {
+    "name": "Kadabra",
+    "types": [
+      "Psychic"
+    ],
+    "energy": 88,
+    "stats": {
+      "hp": 91,
+      "attack": 36,
+      "defense": 32,
+      "spAtk": 113,
+      "spDef": 68,
+      "speed": 99
+    },
+    "move": {
+      "name": "Psycho Cut",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/9e/Kadabra_3-5-042.png/150px-Kadabra_3-5-042.png"
+  },
+  {
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "energy": 118,
+    "stats": {
+      "hp": 117,
+      "attack": 56,
+      "defense": 50,
+      "spAtk": 142,
+      "spDef": 101,
+      "speed": 127
+    },
+    "move": {
+      "name": "Zen Headbutt",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/c/c3/Alakazam_3-5-043.png/150px-Alakazam_3-5-043.png"
+  },
+  {
+    "name": "Rockruff",
+    "types": [
+      "Rock"
+    ],
+    "energy": 42,
+    "stats": {
+      "hp": 61,
+      "attack": 40,
+      "defense": 26,
+      "spAtk": 21,
+      "spDef": 26,
+      "speed": 37
+    },
+    "move": {
+      "name": "Tackle",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/28/Rockruff_3-5-044.png/150px-Rockruff_3-5-044.png"
+  },
+  {
+    "name": "Lycanroc",
+    "types": [
+      "Rock"
+    ],
+    "energy": 116,
+    "stats": {
+      "hp": 137,
+      "attack": 122,
+      "defense": 71,
+      "spAtk": 61,
+      "spDef": 71,
+      "speed": 119
+    },
+    "move": {
+      "name": "Rock Slide",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Lycanroc_3-5-045.png/150px-Lycanroc_3-5-045.png"
+  },
+  {
+    "name": "Lycanroc",
+    "types": [
+      "Rock"
+    ],
+    "energy": 116,
+    "stats": {
+      "hp": 147,
+      "attack": 122,
+      "defense": 81,
+      "spAtk": 61,
+      "spDef": 81,
+      "speed": 88
+    },
+    "move": {
+      "name": "Rock Slide",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/7/71/Lycanroc_3-5-046.png/150px-Lycanroc_3-5-046.png"
+  },
+  {
+    "name": "Igglybuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "energy": 34,
+    "stats": {
+      "hp": 85,
+      "attack": 21,
+      "defense": 13,
+      "spAtk": 26,
+      "spDef": 15,
+      "speed": 13
+    },
+    "move": {
+      "name": "Pound",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/b/b6/Igglybuff_3-5-047.png/150px-Igglybuff_3-5-047.png"
+  },
+  {
+    "name": "Jigglypuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "energy": 64,
+    "stats": {
+      "hp": 158,
+      "attack": 45,
+      "defense": 23,
+      "spAtk": 45,
+      "spDef": 27,
+      "speed": 23
+    },
+    "move": {
+      "name": "Draining Kiss",
+      "type": "Fairy"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/b/b5/Jigglypuff_3-5-048.png/150px-Jigglypuff_3-5-048.png"
+  },
+  {
+    "name": "Wigglytuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "energy": 106,
+    "stats": {
+      "hp": 203,
+      "attack": 76,
+      "defense": 50,
+      "spAtk": 91,
+      "spDef": 56,
+      "speed": 50
+    },
+    "move": {
+      "name": "Dazzling Gleam",
+      "type": "Fairy"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/0/07/Wigglytuff_3-5-049.png/150px-Wigglytuff_3-5-049.png"
+  },
+  {
+    "name": "Bounsweet",
+    "types": [
+      "Grass"
+    ],
+    "energy": 34,
+    "stats": {
+      "hp": 59,
+      "attack": 21,
+      "defense": 25,
+      "spAtk": 21,
+      "spDef": 25,
+      "speed": 22
+    },
+    "move": {
+      "name": "Rapid Spin",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/0/07/Bounsweet_3-5-050.png/150px-Bounsweet_3-5-050.png"
+  },
+  {
+    "name": "Steenee",
+    "types": [
+      "Grass"
+    ],
+    "energy": 68,
+    "stats": {
+      "hp": 101,
+      "attack": 41,
+      "defense": 48,
+      "spAtk": 41,
+      "spDef": 48,
+      "speed": 60
+    },
+    "move": {
+      "name": "Razor Leaf",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/7/7a/Steenee_3-5-051.png/150px-Steenee_3-5-051.png"
+  },
+  {
+    "name": "Tsareena",
+    "types": [
+      "Grass"
+    ],
+    "energy": 120,
+    "stats": {
+      "hp": 134,
+      "attack": 127,
+      "defense": 104,
+      "spAtk": 56,
+      "spDef": 104,
+      "speed": 78
+    },
+    "move": {
+      "name": "Magical Leaf",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/f8/Tsareena_3-5-052.png/150px-Tsareena_3-5-052.png"
+  },
+  {
+    "name": "Basculin",
+    "types": [
+      "Water"
+    ],
+    "energy": 98,
+    "stats": {
+      "hp": 118,
+      "attack": 87,
+      "defense": 63,
+      "spAtk": 77,
+      "spDef": 54,
+      "speed": 93
+    },
+    "move": {
+      "name": "Aqua Jet",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Basculin_3-5-053.png/150px-Basculin_3-5-053.png"
+  },
+  {
+    "name": "Basculegion",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "energy": 124,
+    "stats": {
+      "hp": 183,
+      "attack": 119,
+      "defense": 71,
+      "spAtk": 86,
+      "spDef": 81,
+      "speed": 84
+    },
+    "move": {
+      "name": "Wave Crash",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/62/Basculegion_3-5-054.png/150px-Basculegion_3-5-054.png"
+  },
+  {
+    "name": "Geodude",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "energy": 44,
+    "stats": {
+      "hp": 58,
+      "attack": 48,
+      "defense": 59,
+      "spAtk": 21,
+      "spDef": 21,
+      "speed": 15
+    },
+    "move": {
+      "name": "Tackle",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/4/47/Geodude_3-5-055.png/150px-Geodude_3-5-055.png"
+  },
+  {
+    "name": "Graveler",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "energy": 86,
+    "stats": {
+      "hp": 104,
+      "attack": 90,
+      "defense": 108,
+      "spAtk": 45,
+      "spDef": 45,
+      "speed": 36
+    },
+    "move": {
+      "name": "Rollout",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/f1/Graveler_3-5-056.png/150px-Graveler_3-5-056.png"
+  },
+  {
+    "name": "Golem",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "energy": 118,
+    "stats": {
+      "hp": 142,
+      "attack": 127,
+      "defense": 137,
+      "spAtk": 61,
+      "spDef": 71,
+      "speed": 50
+    },
+    "move": {
+      "name": "Rock Slide",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Golem_3-5-057.png/150px-Golem_3-5-057.png"
+  },
+  {
+    "name": "Happiny",
+    "types": [
+      "Normal"
+    ],
+    "energy": 36,
+    "stats": {
+      "hp": 91,
+      "attack": 7,
+      "defense": 7,
+      "spAtk": 13,
+      "spDef": 40,
+      "speed": 21
+    },
+    "move": {
+      "name": "Pound",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Happiny_3-5-058.png/150px-Happiny_3-5-058.png"
+  },
+  {
+    "name": "Chansey",
+    "types": [
+      "Normal"
+    ],
+    "energy": 96,
+    "stats": {
+      "hp": 280,
+      "attack": 9,
+      "defense": 9,
+      "spAtk": 36,
+      "spDef": 99,
+      "speed": 50
+    },
+    "move": {
+      "name": "Double Slap",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/Chansey_3-5-059.png/150px-Chansey_3-5-059.png"
+  },
+  {
+    "name": "Blissey",
+    "types": [
+      "Normal"
+    ],
+    "energy": 128,
+    "stats": {
+      "hp": 321,
+      "attack": 15,
+      "defense": 15,
+      "spAtk": 81,
+      "spDef": 142,
+      "speed": 61
+    },
+    "move": {
+      "name": "Take Down",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/b/bb/Blissey_3-5-060.png/150px-Blissey_3-5-060.png"
+  },
+  {
+    "name": "Trapinch",
+    "types": [
+      "Ground"
+    ],
+    "energy": 44,
+    "stats": {
+      "hp": 61,
+      "attack": 59,
+      "defense": 29,
+      "spAtk": 29,
+      "spDef": 29,
+      "speed": 10
+    },
+    "move": {
+      "name": "Sand Tomb",
+      "type": "Ground"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/27/Trapinch_3-5-061.png/150px-Trapinch_3-5-061.png"
+  },
+  {
+    "name": "Vibrava",
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "energy": 78,
+    "stats": {
+      "hp": 100,
+      "attack": 68,
+      "defense": 50,
+      "spAtk": 50,
+      "spDef": 50,
+      "speed": 68
+    },
+    "move": {
+      "name": "Dragon Tail",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/4/4f/Vibrava_3-5-062.png/150px-Vibrava_3-5-062.png"
+  },
+  {
+    "name": "Flygon",
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "energy": 122,
+    "stats": {
+      "hp": 142,
+      "attack": 107,
+      "defense": 86,
+      "spAtk": 86,
+      "spDef": 86,
+      "speed": 107
+    },
+    "move": {
+      "name": "Dragon Claw",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/6e/Flygon_3-5-063.png/150px-Flygon_3-5-063.png"
+  },
+  {
+    "name": "Shinx",
+    "types": [
+      "Electric"
+    ],
+    "energy": 40,
+    "stats": {
+      "hp": 61,
+      "attack": 40,
+      "defense": 23,
+      "spAtk": 26,
+      "spDef": 23,
+      "speed": 29
+    },
+    "move": {
+      "name": "Thunder Shock",
+      "type": "Electric"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/26/Shinx_3-5-064.png/150px-Shinx_3-5-064.png"
+  },
+  {
+    "name": "Luxio",
+    "types": [
+      "Electric"
+    ],
+    "energy": 82,
+    "stats": {
+      "hp": 109,
+      "attack": 81,
+      "defense": 49,
+      "spAtk": 59,
+      "spDef": 49,
+      "speed": 59
+    },
+    "move": {
+      "name": "Bite",
+      "type": "Dark"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/16/Luxio_3-5-065.png/150px-Luxio_3-5-065.png"
+  },
+  {
+    "name": "Luxray",
+    "types": [
+      "Electric"
+    ],
+    "energy": 124,
+    "stats": {
+      "hp": 142,
+      "attack": 127,
+      "defense": 85,
+      "spAtk": 101,
+      "spDef": 85,
+      "speed": 76
+    },
+    "move": {
+      "name": "Spark",
+      "type": "Electric"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/92/Luxray_3-5-066.png/150px-Luxray_3-5-066.png"
+  },
+  {
+    "name": "Drifloon",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "energy": 78,
+    "stats": {
+      "hp": 136,
+      "attack": 50,
+      "defense": 35,
+      "spAtk": 59,
+      "spDef": 44,
+      "speed": 68
+    },
+    "move": {
+      "name": "Astonish",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Drifloon_3-5-067.png/150px-Drifloon_3-5-067.png"
+  },
+  {
+    "name": "Drifblim",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "energy": 118,
+    "stats": {
+      "hp": 214,
+      "attack": 86,
+      "defense": 49,
+      "spAtk": 96,
+      "spDef": 60,
+      "speed": 86
+    },
+    "move": {
+      "name": "Hex",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/5/51/Drifblim_3-5-068.png/150px-Drifblim_3-5-068.png"
+  },
+  {
+    "name": "Clobbopus",
+    "types": [
+      "Fighting"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 64,
+      "attack": 41,
+      "defense": 37,
+      "spAtk": 32,
+      "spDef": 32,
+      "speed": 22
+    },
+    "move": {
+      "name": "Rock Smash",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/95/Clobbopus_3-5-069.png/150px-Clobbopus_3-5-069.png"
+  },
+  {
+    "name": "Grapploct",
+    "types": [
+      "Fighting"
+    ],
+    "energy": 114,
+    "stats": {
+      "hp": 142,
+      "attack": 125,
+      "defense": 96,
+      "spAtk": 76,
+      "spDef": 86,
+      "speed": 47
+    },
+    "move": {
+      "name": "Brick Break",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/fa/Grapploct_3-5-070.png/150px-Grapploct_3-5-070.png"
   }
 ]

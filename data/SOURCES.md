@@ -17,15 +17,9 @@ Tracks which Bulbapedia Mezastar set pages have been crawled into `mezatags.json
 - https://bulbapedia.bulbagarden.net/wiki/Double_Chain_set_2_(Mezastar)
 - https://bulbapedia.bulbagarden.net/wiki/Double_Chain_set_3_(Mezastar)
 - https://bulbapedia.bulbagarden.net/wiki/Double_Chain_set_4_(Mezastar)
+- https://bulbapedia.bulbagarden.net/wiki/Double_Chain_set_5_(Mezastar)
 
 ## Not yet crawled
-
-### Double Chain series
-
-- https://bulbapedia.bulbagarden.net/wiki/Double_Chain_set_5_(Mezastar)
-- https://bulbapedia.bulbagarden.net/wiki/Double_Chain_set_3_(Mezastar)
-- https://bulbapedia.bulbagarden.net/wiki/Double_Chain_set_4_(Mezastar)
-- https://bulbapedia.bulbagarden.net/wiki/Double_Chain_set_5_(Mezastar)
 
 ### Gorgeous Star series
 
