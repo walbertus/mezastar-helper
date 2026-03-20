@@ -24373,5 +24373,1448 @@
       "type": "Water"
     },
     "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/4/4f/Urshifu_4-3-006.png/250px-Urshifu_4-3-006.png"
+  },
+  {
+    "name": "Koraidon",
+    "types": [
+      "Fighting",
+      "Dragon"
+    ],
+    "energy": 222,
+    "stats": {
+      "hp": 235,
+      "attack": 207,
+      "defense": 177,
+      "spAtk": 132,
+      "spDef": 155,
+      "speed": 207
+    },
+    "move": {
+      "name": "Collision Course",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/19/Koraidon_4-4-001.png/150px-Koraidon_4-4-001.png"
+  },
+  {
+    "name": "Miraidon",
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "energy": 222,
+    "stats": {
+      "hp": 235,
+      "attack": 132,
+      "defense": 155,
+      "spAtk": 207,
+      "spDef": 177,
+      "speed": 207
+    },
+    "move": {
+      "name": "Electro Drift",
+      "type": "Electric"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/2b/Miraidon_4-4-002.png/150px-Miraidon_4-4-002.png"
+  },
+  {
+    "name": "Solgaleo",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "energy": 222,
+    "stats": {
+      "hp": 286,
+      "attack": 207,
+      "defense": 163,
+      "spAtk": 172,
+      "spDef": 136,
+      "speed": 148
+    },
+    "move": {
+      "name": "Sunsteel Strike",
+      "type": "Steel"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/f0/Solgaleo_4-4-003.png/250px-Solgaleo_4-4-003.png"
+  },
+  {
+    "name": "Lunala",
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "energy": 222,
+    "stats": {
+      "hp": 286,
+      "attack": 172,
+      "defense": 136,
+      "spAtk": 207,
+      "spDef": 163,
+      "speed": 148
+    },
+    "move": {
+      "name": "Moongeist Beam",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/98/Lunala_4-4-004.png/250px-Lunala_4-4-004.png"
+  },
+  {
+    "name": "Xerneas",
+    "types": [
+      "Fairy"
+    ],
+    "energy": 216,
+    "stats": {
+      "hp": 263,
+      "attack": 193,
+      "defense": 141,
+      "spAtk": 193,
+      "spDef": 146,
+      "speed": 147
+    },
+    "move": {
+      "name": "Close Combat",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Xerneas_4-4-005.png/250px-Xerneas_4-4-005.png"
+  },
+  {
+    "name": "Yveltal",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "energy": 216,
+    "stats": {
+      "hp": 263,
+      "attack": 193,
+      "defense": 141,
+      "spAtk": 193,
+      "spDef": 146,
+      "speed": 147
+    },
+    "move": {
+      "name": "Dark Pulse",
+      "type": "Dark"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Yveltal_4-4-006.png/250px-Yveltal_4-4-006.png"
+  },
+  {
+    "name": "Arceus",
+    "types": [
+      "Normal"
+    ],
+    "energy": 224,
+    "stats": {
+      "hp": 248,
+      "attack": 173,
+      "defense": 173,
+      "spAtk": 173,
+      "spDef": 173,
+      "speed": 173
+    },
+    "move": {
+      "name": "Judgment",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Arceus_4-4-007.png/150px-Arceus_4-4-007.png"
+  },
+  {
+    "name": "Melmetal",
+    "types": [
+      "Steel"
+    ],
+    "energy": 214,
+    "stats": {
+      "hp": 306,
+      "attack": 233,
+      "defense": 233,
+      "spAtk": 133,
+      "spDef": 109,
+      "speed": 59
+    },
+    "move": {
+      "name": "Double Iron Bash",
+      "type": "Steel"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Melmetal_4-4-008.png/250px-Melmetal_4-4-008.png"
+  },
+  {
+    "name": "Zygarde",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "energy": 220,
+    "stats": {
+      "hp": 382,
+      "attack": 145,
+      "defense": 174,
+      "spAtk": 132,
+      "spDef": 138,
+      "speed": 124
+    },
+    "move": {
+      "name": "Land's Wrath",
+      "type": "Ground"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/23/Zygarde_4-4-009.png/250px-Zygarde_4-4-009.png"
+  },
+  {
+    "name": "Garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "energy": 206,
+    "stats": {
+      "hp": 253,
+      "attack": 205,
+      "defense": 151,
+      "spAtk": 128,
+      "spDef": 135,
+      "speed": 162
+    },
+    "move": {
+      "name": "Earthquake",
+      "type": "Ground"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Garchomp_4-4-010.png/250px-Garchomp_4-4-010.png"
+  },
+  {
+    "name": "Brute Bonnet",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "energy": 174,
+    "stats": {
+      "hp": 228,
+      "attack": 177,
+      "defense": 139,
+      "spAtk": 112,
+      "spDef": 139,
+      "speed": 79
+    },
+    "move": {
+      "name": "Solar Beam",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/5/52/Brute_Bonnet_4-4-011.png/250px-Brute_Bonnet_4-4-011.png"
+  },
+  {
+    "name": "Flutter Mane",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "energy": 174,
+    "stats": {
+      "hp": 152,
+      "attack": 79,
+      "defense": 79,
+      "spAtk": 188,
+      "spDef": 188,
+      "speed": 188
+    },
+    "move": {
+      "name": "Shadow Ball",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/1d/Flutter_Mane_4-4-012.png/250px-Flutter_Mane_4-4-012.png"
+  },
+  {
+    "name": "Iron Hands",
+    "types": [
+      "Fighting",
+      "Electric"
+    ],
+    "energy": 176,
+    "stats": {
+      "hp": 287,
+      "attack": 195,
+      "defense": 151,
+      "spAtk": 73,
+      "spDef": 97,
+      "speed": 73
+    },
+    "move": {
+      "name": "Close Combat",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/21/Iron_Hands_4-4-013.png/250px-Iron_Hands_4-4-013.png"
+  },
+  {
+    "name": "Iron Jugulis",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "energy": 174,
+    "stats": {
+      "hp": 205,
+      "attack": 113,
+      "defense": 121,
+      "spAtk": 170,
+      "spDef": 113,
+      "speed": 151
+    },
+    "move": {
+      "name": "Air Slash",
+      "type": "Flying"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/4/40/Iron_Jugulis_4-4-014.png/250px-Iron_Jugulis_4-4-014.png"
+  },
+  {
+    "name": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "energy": 148,
+    "stats": {
+      "hp": 150,
+      "attack": 88,
+      "defense": 81,
+      "spAtk": 171,
+      "spDef": 101,
+      "speed": 145
+    },
+    "move": {
+      "name": "Shadow Ball",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/0/04/Gengar_4-4-015.png/150px-Gengar_4-4-015.png"
+  },
+  {
+    "name": "Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "energy": 168,
+    "stats": {
+      "hp": 184,
+      "attack": 171,
+      "defense": 122,
+      "spAtk": 129,
+      "spDef": 129,
+      "speed": 104
+    },
+    "move": {
+      "name": "Dragon Rush",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/c/c1/Dragonite_4-4-016.png/150px-Dragonite_4-4-016.png"
+  },
+  {
+    "name": "Meganium",
+    "types": [
+      "Grass"
+    ],
+    "energy": 162,
+    "stats": {
+      "hp": 186,
+      "attack": 116,
+      "defense": 141,
+      "spAtk": 117,
+      "spDef": 141,
+      "speed": 113
+    },
+    "move": {
+      "name": "Solar Beam",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/0/05/Meganium_4-4-017.png/150px-Meganium_4-4-017.png"
+  },
+  {
+    "name": "Typhlosion",
+    "types": [
+      "Fire"
+    ],
+    "energy": 166,
+    "stats": {
+      "hp": 184,
+      "attack": 119,
+      "defense": 111,
+      "spAtk": 153,
+      "spDef": 120,
+      "speed": 141
+    },
+    "move": {
+      "name": "Flamethrower",
+      "type": "Fire"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/39/Typhlosion_4-4-018.png/150px-Typhlosion_4-4-018.png"
+  },
+  {
+    "name": "Feraligatr",
+    "types": [
+      "Water"
+    ],
+    "energy": 164,
+    "stats": {
+      "hp": 193,
+      "attack": 147,
+      "defense": 141,
+      "spAtk": 112,
+      "spDef": 117,
+      "speed": 111
+    },
+    "move": {
+      "name": "Hydro Pump",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/fb/Feraligatr_4-4-019.png/150px-Feraligatr_4-4-019.png"
+  },
+  {
+    "name": "Hydreigon",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "energy": 176,
+    "stats": {
+      "hp": 194,
+      "attack": 141,
+      "defense": 122,
+      "spAtk": 167,
+      "spDef": 122,
+      "speed": 132
+    },
+    "move": {
+      "name": "Crunch",
+      "type": "Dark"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/b/b1/Hydreigon_4-4-020.png/250px-Hydreigon_4-4-020.png"
+  },
+  {
+    "name": "Magnezone",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "energy": 166,
+    "stats": {
+      "hp": 173,
+      "attack": 100,
+      "defense": 161,
+      "spAtk": 181,
+      "spDef": 127,
+      "speed": 86
+    },
+    "move": {
+      "name": "Flash Cannon",
+      "type": "Steel"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/23/Magnezone_4-4-021.png/250px-Magnezone_4-4-021.png"
+  },
+  {
+    "name": "Scolipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "energy": 158,
+    "stats": {
+      "hp": 166,
+      "attack": 147,
+      "defense": 131,
+      "spAtk": 83,
+      "spDef": 102,
+      "speed": 164
+    },
+    "move": {
+      "name": "Poison Jab",
+      "type": "Poison"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/c/c6/Scolipede_4-4-022.png/250px-Scolipede_4-4-022.png"
+  },
+  {
+    "name": "Kommo-o",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "energy": 170,
+    "stats": {
+      "hp": 167,
+      "attack": 143,
+      "defense": 162,
+      "spAtk": 131,
+      "spDef": 137,
+      "speed": 112
+    },
+    "move": {
+      "name": "Clanging Scales",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/5/58/Kommo-o_4-4-023.png/250px-Kommo-o_4-4-023.png"
+  },
+  {
+    "name": "Gallade",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "energy": 162,
+    "stats": {
+      "hp": 170,
+      "attack": 175,
+      "defense": 93,
+      "spAtk": 93,
+      "spDef": 161,
+      "speed": 113
+    },
+    "move": {
+      "name": "Close Combat",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/5/58/Gallade_4-4-024.png/250px-Gallade_4-4-024.png"
+  },
+  {
+    "name": "Steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "energy": 158,
+    "stats": {
+      "hp": 180,
+      "attack": 120,
+      "defense": 277,
+      "spAtk": 79,
+      "spDef": 93,
+      "speed": 45
+    },
+    "move": {
+      "name": "Iron Tail",
+      "type": "Steel"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/8/8e/Steelix_4-4-025.png/250px-Steelix_4-4-025.png"
+  },
+  {
+    "name": "Chikorita",
+    "types": [
+      "Grass"
+    ],
+    "energy": 48,
+    "stats": {
+      "hp": 63,
+      "attack": 32,
+      "defense": 41,
+      "spAtk": 32,
+      "spDef": 41,
+      "speed": 30
+    },
+    "move": {
+      "name": "Tackle",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/21/Chikorita_4-4-026.png/150px-Chikorita_4-4-026.png"
+  },
+  {
+    "name": "Bayleef",
+    "types": [
+      "Grass"
+    ],
+    "energy": 98,
+    "stats": {
+      "hp": 120,
+      "attack": 67,
+      "defense": 85,
+      "spAtk": 68,
+      "spDef": 85,
+      "speed": 65
+    },
+    "move": {
+      "name": "Razor Leaf",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/c/c9/Bayleef_4-4-027.png/150px-Bayleef_4-4-027.png"
+  },
+  {
+    "name": "Meganium",
+    "types": [
+      "Grass"
+    ],
+    "energy": 136,
+    "stats": {
+      "hp": 155,
+      "attack": 96,
+      "defense": 117,
+      "spAtk": 97,
+      "spDef": 117,
+      "speed": 94
+    },
+    "move": {
+      "name": "Magical Leaf",
+      "type": "Grass"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/15/Meganium_4-4-028.png/150px-Meganium_4-4-028.png"
+  },
+  {
+    "name": "Cyndaquil",
+    "types": [
+      "Fire"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 59,
+      "attack": 34,
+      "defense": 29,
+      "spAtk": 38,
+      "spDef": 33,
+      "speed": 41
+    },
+    "move": {
+      "name": "Ember",
+      "type": "Fire"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/0/0b/Cyndaquil_4-4-029.png/150px-Cyndaquil_4-4-029.png"
+  },
+  {
+    "name": "Quilava",
+    "types": [
+      "Fire"
+    ],
+    "energy": 98,
+    "stats": {
+      "hp": 118,
+      "attack": 69,
+      "defense": 63,
+      "spAtk": 85,
+      "spDef": 70,
+      "speed": 85
+    },
+    "move": {
+      "name": "Flame Charge",
+      "type": "Fire"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Quilava_4-4-030.png/150px-Quilava_4-4-030.png"
+  },
+  {
+    "name": "Typhlosion",
+    "types": [
+      "Fire"
+    ],
+    "energy": 138,
+    "stats": {
+      "hp": 153,
+      "attack": 99,
+      "defense": 92,
+      "spAtk": 127,
+      "spDef": 100,
+      "speed": 117
+    },
+    "move": {
+      "name": "Flame Wheel",
+      "type": "Fire"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/c/ce/Typhlosion_4-4-031.png/150px-Typhlosion_4-4-031.png"
+  },
+  {
+    "name": "Totodile",
+    "types": [
+      "Water"
+    ],
+    "energy": 48,
+    "stats": {
+      "hp": 66,
+      "attack": 41,
+      "defense": 40,
+      "spAtk": 29,
+      "spDef": 31,
+      "speed": 29
+    },
+    "move": {
+      "name": "Water Gun",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/15/Totodile_4-4-032.png/150px-Totodile_4-4-032.png"
+  },
+  {
+    "name": "Croconaw",
+    "types": [
+      "Water"
+    ],
+    "energy": 98,
+    "stats": {
+      "hp": 125,
+      "attack": 85,
+      "defense": 85,
+      "spAtk": 64,
+      "spDef": 68,
+      "speed": 63
+    },
+    "move": {
+      "name": "Water Pulse",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/e/ed/Croconaw_4-4-033.png/150px-Croconaw_4-4-033.png"
+  },
+  {
+    "name": "Feraligatr",
+    "types": [
+      "Water"
+    ],
+    "energy": 136,
+    "stats": {
+      "hp": 161,
+      "attack": 122,
+      "defense": 117,
+      "spAtk": 93,
+      "spDef": 97,
+      "speed": 92
+    },
+    "move": {
+      "name": "Waterfall",
+      "type": "Water"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/d1/Feraligatr_4-4-034.png/150px-Feraligatr_4-4-034.png"
+  },
+  {
+    "name": "Meltan",
+    "types": [
+      "Steel"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 63,
+      "attack": 41,
+      "defense": 41,
+      "spAtk": 35,
+      "spDef": 24,
+      "speed": 24
+    },
+    "move": {
+      "name": "Thunder Shock",
+      "type": "Electric"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/14/Meltan_4-4-035.png/150px-Meltan_4-4-035.png"
+  },
+  {
+    "name": "Melmetal",
+    "types": [
+      "Steel"
+    ],
+    "energy": 152,
+    "stats": {
+      "hp": 217,
+      "attack": 165,
+      "defense": 165,
+      "spAtk": 94,
+      "spDef": 77,
+      "speed": 43
+    },
+    "move": {
+      "name": "Thunder Punch",
+      "type": "Electric"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Melmetal_4-4-036.png/150px-Melmetal_4-4-036.png"
+  },
+  {
+    "name": "Gible",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 70,
+      "attack": 44,
+      "defense": 30,
+      "spAtk": 27,
+      "spDef": 30,
+      "speed": 28
+    },
+    "move": {
+      "name": "Tackle",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/b/ba/Gible_4-4-037.png/150px-Gible_4-4-037.png"
+  },
+  {
+    "name": "Gabite",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "energy": 100,
+    "stats": {
+      "hp": 128,
+      "attack": 95,
+      "defense": 70,
+      "spAtk": 55,
+      "spDef": 60,
+      "speed": 87
+    },
+    "move": {
+      "name": "Bulldoze",
+      "type": "Ground"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/c/ca/Gabite_4-4-038.png/150px-Gabite_4-4-038.png"
+  },
+  {
+    "name": "Garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "energy": 152,
+    "stats": {
+      "hp": 186,
+      "attack": 150,
+      "defense": 111,
+      "spAtk": 94,
+      "spDef": 100,
+      "speed": 119
+    },
+    "move": {
+      "name": "Dragon Claw",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/8/84/Garchomp_4-4-039.png/150px-Garchomp_4-4-039.png"
+  },
+  {
+    "name": "Gastly",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 54,
+      "attack": 24,
+      "defense": 21,
+      "spAtk": 61,
+      "spDef": 24,
+      "speed": 49
+    },
+    "move": {
+      "name": "Lick",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/0/0b/Gastly_4-4-040.png/150px-Gastly_4-4-040.png"
+  },
+  {
+    "name": "Haunter",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "energy": 98,
+    "stats": {
+      "hp": 105,
+      "attack": 55,
+      "defense": 50,
+      "spAtk": 120,
+      "spDef": 60,
+      "speed": 100
+    },
+    "move": {
+      "name": "Shadow Punch",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/98/Haunter_4-4-041.png/150px-Haunter_4-4-041.png"
+  },
+  {
+    "name": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "energy": 130,
+    "stats": {
+      "hp": 133,
+      "attack": 77,
+      "defense": 72,
+      "spAtk": 150,
+      "spDef": 89,
+      "speed": 128
+    },
+    "move": {
+      "name": "Hex",
+      "type": "Ghost"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Gengar_4-4-042.png/150px-Gengar_4-4-042.png"
+  },
+  {
+    "name": "Dratini",
+    "types": [
+      "Dragon"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 30,
+      "spAtk": 33,
+      "spDef": 33,
+      "speed": 33
+    },
+    "move": {
+      "name": "Twister",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/ac/Dratini_4-4-043.png/150px-Dratini_4-4-043.png"
+  },
+  {
+    "name": "Dragonair",
+    "types": [
+      "Dragon"
+    ],
+    "energy": 102,
+    "stats": {
+      "hp": 121,
+      "attack": 89,
+      "defense": 70,
+      "spAtk": 75,
+      "spDef": 75,
+      "speed": 75
+    },
+    "move": {
+      "name": "Dragon Tail",
+      "type": "Dragon"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/a1/Dragonair_4-4-044.png/150px-Dragonair_4-4-044.png"
+  },
+  {
+    "name": "Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "energy": 152,
+    "stats": {
+      "hp": 167,
+      "attack": 155,
+      "defense": 111,
+      "spAtk": 117,
+      "spDef": 117,
+      "speed": 94
+    },
+    "move": {
+      "name": "Air Slash",
+      "type": "Flying"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/7/74/Dragonite_4-4-045.png/150px-Dragonite_4-4-045.png"
+  },
+  {
+    "name": "Magnemite",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "energy": 48,
+    "stats": {
+      "hp": 52,
+      "attack": 24,
+      "defense": 44,
+      "spAtk": 58,
+      "spDef": 35,
+      "speed": 30
+    },
+    "move": {
+      "name": "Thunder Shock",
+      "type": "Electric"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/64/Magnemite_4-4-046.png/150px-Magnemite_4-4-046.png"
+  },
+  {
+    "name": "Magneton",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "energy": 110,
+    "stats": {
+      "hp": 110,
+      "attack": 65,
+      "defense": 100,
+      "spAtk": 125,
+      "spDef": 75,
+      "speed": 75
+    },
+    "move": {
+      "name": "Charge Beam",
+      "type": "Electric"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/e/e7/Magneton_4-4-047.png/150px-Magneton_4-4-047.png"
+  },
+  {
+    "name": "Magnezone",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "energy": 138,
+    "stats": {
+      "hp": 144,
+      "attack": 83,
+      "defense": 133,
+      "spAtk": 150,
+      "spDef": 105,
+      "speed": 72
+    },
+    "move": {
+      "name": "Spark",
+      "type": "Electric"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Magnezone_4-4-048.png/150px-Magnezone_4-4-048.png"
+  },
+  {
+    "name": "Venipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "energy": 42,
+    "stats": {
+      "hp": 54,
+      "attack": 30,
+      "defense": 38,
+      "spAtk": 21,
+      "spDef": 26,
+      "speed": 36
+    },
+    "move": {
+      "name": "Poison Sting",
+      "type": "Poison"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/17/Venipede_4-4-049.png/150px-Venipede_4-4-049.png"
+  },
+  {
+    "name": "Whirlipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "energy": 90,
+    "stats": {
+      "hp": 100,
+      "attack": 60,
+      "defense": 104,
+      "spAtk": 45,
+      "spDef": 84,
+      "speed": 52
+    },
+    "move": {
+      "name": "Bug Bite",
+      "type": "Bug"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/c/c2/Whirlipede_4-4-050.png/150px-Whirlipede_4-4-050.png"
+  },
+  {
+    "name": "Scolipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "energy": 126,
+    "stats": {
+      "hp": 133,
+      "attack": 117,
+      "defense": 104,
+      "spAtk": 66,
+      "spDef": 82,
+      "speed": 130
+    },
+    "move": {
+      "name": "Cross Poison",
+      "type": "Poison"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/d2/Scolipede_4-4-051.png/150px-Scolipede_4-4-051.png"
+  },
+  {
+    "name": "Onix",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "energy": 94,
+    "stats": {
+      "hp": 95,
+      "attack": 50,
+      "defense": 165,
+      "spAtk": 35,
+      "spDef": 50,
+      "speed": 75
+    },
+    "move": {
+      "name": "Bulldoze",
+      "type": "Ground"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Onix_4-4-052.png/150px-Onix_4-4-052.png"
+  },
+  {
+    "name": "Steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "energy": 132,
+    "stats": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 229,
+      "spAtk": 66,
+      "spDef": 77,
+      "speed": 38
+    },
+    "move": {
+      "name": "Rock Slide",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/f3/Steelix_4-4-053.png/150px-Steelix_4-4-053.png"
+  },
+  {
+    "name": "Pidgey",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "energy": 40,
+    "stats": {
+      "hp": 60,
+      "attack": 30,
+      "defense": 27,
+      "spAtk": 24,
+      "spDef": 24,
+      "speed": 36
+    },
+    "move": {
+      "name": "Gust",
+      "type": "Flying"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/3a/Pidgey_4-4-054.png/150px-Pidgey_4-4-054.png"
+  },
+  {
+    "name": "Pidgeotto",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "energy": 86,
+    "stats": {
+      "hp": 123,
+      "attack": 65,
+      "defense": 60,
+      "spAtk": 55,
+      "spDef": 55,
+      "speed": 76
+    },
+    "move": {
+      "name": "Wing Attack",
+      "type": "Flying"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/e/e2/Pidgeotto_4-4-055.png/150px-Pidgeotto_4-4-055.png"
+  },
+  {
+    "name": "Pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "energy": 126,
+    "stats": {
+      "hp": 158,
+      "attack": 94,
+      "defense": 89,
+      "spAtk": 83,
+      "spDef": 83,
+      "speed": 118
+    },
+    "move": {
+      "name": "Air Slash",
+      "type": "Flying"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/1/16/Pidgeot_4-4-056.png/150px-Pidgeot_4-4-056.png"
+  },
+  {
+    "name": "Nidoran♀",
+    "types": [
+      "Poison"
+    ],
+    "energy": 42,
+    "stats": {
+      "hp": 68,
+      "attack": 31,
+      "defense": 34,
+      "spAtk": 27,
+      "spDef": 27,
+      "speed": 27
+    },
+    "move": {
+      "name": "Poison Sting",
+      "type": "Poison"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/7/77/Nidoran_4-4-057.png/150px-Nidoran_4-4-057.png"
+  },
+  {
+    "name": "Nidorina",
+    "types": [
+      "Poison"
+    ],
+    "energy": 90,
+    "stats": {
+      "hp": 130,
+      "attack": 67,
+      "defense": 72,
+      "spAtk": 60,
+      "spDef": 60,
+      "speed": 61
+    },
+    "move": {
+      "name": "Bite",
+      "type": "Dark"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/f/f5/Nidorina_4-4-058.png/150px-Nidorina_4-4-058.png"
+  },
+  {
+    "name": "Nidoqueen",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "energy": 132,
+    "stats": {
+      "hp": 166,
+      "attack": 108,
+      "defense": 102,
+      "spAtk": 89,
+      "spDef": 100,
+      "speed": 90
+    },
+    "move": {
+      "name": "Dig",
+      "type": "Ground"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/39/Nidoqueen_4-4-059.png/150px-Nidoqueen_4-4-059.png"
+  },
+  {
+    "name": "Nidoran♂",
+    "types": [
+      "Poison"
+    ],
+    "energy": 42,
+    "stats": {
+      "hp": 63,
+      "attack": 36,
+      "defense": 27,
+      "spAtk": 27,
+      "spDef": 27,
+      "speed": 33
+    },
+    "move": {
+      "name": "Poison Sting",
+      "type": "Poison"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/39/Nidoran_4-4-060.png/150px-Nidoran_4-4-060.png"
+  },
+  {
+    "name": "Nidorino",
+    "types": [
+      "Poison"
+    ],
+    "energy": 90,
+    "stats": {
+      "hp": 121,
+      "attack": 77,
+      "defense": 62,
+      "spAtk": 60,
+      "spDef": 60,
+      "speed": 70
+    },
+    "move": {
+      "name": "Double Kick",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/34/Nidorino_4-4-061.png/150px-Nidorino_4-4-061.png"
+  },
+  {
+    "name": "Nidoking",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "energy": 132,
+    "stats": {
+      "hp": 156,
+      "attack": 119,
+      "defense": 91,
+      "spAtk": 100,
+      "spDef": 89,
+      "speed": 100
+    },
+    "move": {
+      "name": "Poison Jab",
+      "type": "Poison"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/Nidoking_4-4-062.png/150px-Nidoking_4-4-062.png"
+  },
+  {
+    "name": "Bronzor",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 69,
+      "attack": 18,
+      "defense": 53,
+      "spAtk": 18,
+      "spDef": 53,
+      "speed": 17
+    },
+    "move": {
+      "name": "Confusion",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Bronzor_4-4-063.png/150px-Bronzor_4-4-063.png"
+  },
+  {
+    "name": "Bronzong",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "energy": 130,
+    "stats": {
+      "hp": 141,
+      "attack": 104,
+      "defense": 134,
+      "spAtk": 93,
+      "spDef": 134,
+      "speed": 41
+    },
+    "move": {
+      "name": "Extrasensory",
+      "type": "Psychic"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/3/3d/Bronzong_4-4-064.png/150px-Bronzong_4-4-064.png"
+  },
+  {
+    "name": "Timburr",
+    "types": [
+      "Fighting"
+    ],
+    "energy": 46,
+    "stats": {
+      "hp": 80,
+      "attack": 49,
+      "defense": 35,
+      "spAtk": 19,
+      "spDef": 24,
+      "speed": 24
+    },
+    "move": {
+      "name": "Pound",
+      "type": "Normal"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/5/51/Timburr_4-4-065.png/150px-Timburr_4-4-065.png"
+  },
+  {
+    "name": "Gurdurr",
+    "types": [
+      "Fighting"
+    ],
+    "energy": 98,
+    "stats": {
+      "hp": 145,
+      "attack": 110,
+      "defense": 90,
+      "spAtk": 45,
+      "spDef": 55,
+      "speed": 45
+    },
+    "move": {
+      "name": "Rock Throw",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/9c/Gurdurr_4-4-066.png/150px-Gurdurr_4-4-066.png"
+  },
+  {
+    "name": "Conkeldurr",
+    "types": [
+      "Fighting"
+    ],
+    "energy": 130,
+    "stats": {
+      "hp": 183,
+      "attack": 161,
+      "defense": 111,
+      "spAtk": 66,
+      "spDef": 77,
+      "speed": 55
+    },
+    "move": {
+      "name": "Brick Break",
+      "type": "Fighting"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/4/43/Conkeldurr_4-4-067.png/150px-Conkeldurr_4-4-067.png"
+  },
+  {
+    "name": "Mareanie",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "energy": 78,
+    "stats": {
+      "hp": 110,
+      "attack": 58,
+      "defense": 67,
+      "spAtk": 48,
+      "spDef": 57,
+      "speed": 50
+    },
+    "move": {
+      "name": "Venoshock",
+      "type": "Poison"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/2/24/Mareanie_4-4-068.png/150px-Mareanie_4-4-068.png"
+  },
+  {
+    "name": "Toxapex",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "energy": 128,
+    "stats": {
+      "hp": 122,
+      "attack": 75,
+      "defense": 175,
+      "spAtk": 64,
+      "spDef": 164,
+      "speed": 44
+    },
+    "move": {
+      "name": "Poison Jab",
+      "type": "Poison"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/9/9a/Toxapex_4-4-069.png/150px-Toxapex_4-4-069.png"
+  },
+  {
+    "name": "Stonjourner",
+    "types": [
+      "Rock"
+    ],
+    "energy": 124,
+    "stats": {
+      "hp": 178,
+      "attack": 145,
+      "defense": 156,
+      "spAtk": 27,
+      "spDef": 27,
+      "speed": 83
+    },
+    "move": {
+      "name": "Rock Slide",
+      "type": "Rock"
+    },
+    "imageUrl": "https://archives.bulbagarden.net/media/upload/thumb/6/68/Stonjourner_4-4-070.png/150px-Stonjourner_4-4-070.png"
   }
 ]
